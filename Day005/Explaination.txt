@@ -1,0 +1,34 @@
+                                                                                                          ****EXPLAINATION****
+
+                                                                         Java Program to Find the Largest Among Three Numbers
+
+In this program, We will learn to find the largest among three numbers using if else and nested if..else statement in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+
+Java Operators
+Java if...else Statement
+
+
+METHOD1:
+In this program, three numbers -4.5, 3.9 and 2.5 are stored in variables n1, n2 and n3 respectively.
+
+Then, to find the largest, the following conditions are checked using if else statements
+
+If n1 is greater or equals to both n2 and n3, n1 is the greatest.
+If n2 is greater or equals to both n1 and n3, n2 is the greatest.
+Else, n3 is the greatest.
+The greatest number can also be found using a nested if..else statement.
+
+
+METHOD2:
+In this program, instead of checking for two conditions in a single if statement, we use nested if to find the greatest.
+
+Then, to find the largest, the following conditions are checked using if else statements
+
+If n1 is greater or equals to n2,
+and if n1 is greater or equals to n3, n1 is the greatest.
+else, n3 is the greatest.
+Else,
+if n2 is greater or equals to both n3, n2 is the greatest.
+else, n3 is the greatest.
