@@ -1,0 +1,25 @@
+                                                                                       ****EXPLANATION****
+
+In this program, We will learn to check whether an alphabet is a vowel or a consotant using if..else and switch statement in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java if...else Statement
+Java switch Statement
+
+
+JAVA IF..ELSE STATEMENT
+
+In this above program, 'i' is stored in a char variable ch.
+ In Java, you use double quotes (" ") for strings and single quotes (' ') for characters.
+
+Now, to check whether ch is vowel or not, we check if ch is any of: ('a', 'e', 'i', 'o', 'u').
+ This is done using a simple if..else statement.
+
+We can also check for vowel or consonant using a switch statement in Java.
+
+
+JAVA SWITCH STATEMENT
+
+If ch is either of cases: ('a', 'e', 'i', 'o', 'u'), vowel is printed.
+ Else, default case is executed and consonant is printed on the screen.
