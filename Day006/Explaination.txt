@@ -1,0 +1,29 @@
+                                                                                                 ****EXPLAINATION****
+
+Java Program to Find all Roots of a Quadratic Equation
+
+In this program, We will learn to find all roots of a quadratic equation and print them using format() in Java.
+
+The standard form of a quadratic equation is:
+ax2 + bx + c = 0
+Here, a, b, and c are real numbers and a can't be equal to 0.
+
+We can calculate the root of a quadratic by using the formula:
+x = (-b ± √(b2-4ac)) / (2a)
+
+The ± sign indicates that there will be two roots:
+root1 = (-b + √(b2-4ac)) / (2a)
+root1 = (-b - √(b2-4ac)) / (2a)
+
+The term b2-4ac is known as the determinant of a quadratic equation. It specifies the nature of roots. That is,
+if determinant > 0, roots are real and different
+if determinant == 0, roots are real and equal
+if determinant < 0, roots are complex complex and different
+
+      
+ 
+In this program, the coefficients a, b, and c are set to 2.3, 4, and 5.6 respectively. Then, the determinant is calculated as b2 - 4ac.
+
+Based on the value of the determinant, the roots are calculated as given in the formula above. Notice we've used library function Math.sqrt() to calculate the square root of a number.
+
+We have used the format() method to print the calculated roots.
