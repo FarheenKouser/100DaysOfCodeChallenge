@@ -1,0 +1,15 @@
+                                                                                               ****EXPLAINATION****
+
+                                                                                        Java Program to Check Leap Year
+
+In this program, We will learn to check if the given year is a leap year or not. This is checked using a if else statement.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Operators
+Java if...else Statement
+
+A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400.
+
+In this example, we are checking if the year 1900 is a leap year or not. 
+Since 1900 is a century year (ending with 00), it should be divisible by both 4 and 400 to be a leap year.
+However, 1900 is not divisible by 400. Hence, it is not a leap year.
