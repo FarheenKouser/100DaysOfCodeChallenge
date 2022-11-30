@@ -1,0 +1,22 @@
+                                                                                                  ****EXPLAINATION****
+                                                                                  Java Program to Find Factorial of a Number
+
+In this program, We will learn to find the factorial of a number using for and while loop in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java for Loop
+Java while and do...while Loop
+
+The factorial of a positive number n is given by:
+factorial of n (n!) = 1 * 2 * 3 * 4 * ... * n
+
+EXAMPLE 1:
+In this program, we've used for loop to loop through all numbers between 1 and the given number num (10), 
+and the product of each number till num is stored in a variable factorial.
+We've used long instead of int to store large results of factorial.
+
+
+EXAMPLE 2: 
+In the above program, unlike a for loop, we have to increment the value of i inside the body of the loop.
+Though both programs are technically correct, it is better to use for loop in this case.
+ It's because the number of iteration (upto num) is known.
