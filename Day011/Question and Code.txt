@@ -1,0 +1,50 @@
+                                                                 ****JAVA PROGRAMME TO FIND THE FACTORIAL OF A NUMBER****
+
+QUESTION-
+
+Example1: Find Factorial of 10 using for loop
+
+CODE:
+public class Factorial {
+
+    public static void main(String[] args) {
+
+        int num = 10;
+        long factorial = 1;
+        for(int i = 1; i <= num; ++i)
+        {
+            // factorial = factorial * i;
+            factorial *= i;
+        }
+        System.out.printf("Factorial of %d = %d", num, factorial);
+    }
+}
+
+OUTPUT:
+
+Factorial of 10 = 3628800
+
+
+
+
+Example 2: Find Factorial of 5 using while loop
+
+CODE:
+public class Factorial {
+
+    public static void main(String[] args) {
+
+        int num = 5, i = 1;
+        long factorial = 1;
+        while(i <= num)
+        {
+            factorial *= i;
+            i++;
+        }
+        System.out.printf("Factorial of %d = %d", num, factorial);
+    }
+}
+
+OUTPUT:
+
+Factorial of 5 = 120
