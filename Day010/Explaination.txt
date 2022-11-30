@@ -1,0 +1,25 @@
+                                                                                              ****EXPLAINATION****
+                                                               Java Program to convert long type variables into int
+
+In this program, we will learn to convert the long variable into an integer (int) in Java.
+To understand this example, We should have the knowledge of 
+Java Data Types (Primitive)
+
+CASE 1: Java Program to Convert long to int using Typecasting
+In this case, we have long type variables a and b. Notice the lines,
+int c = (int)a;
+Here, the higher data type long is converted into the lower data type int. 
+Hence, this is called narrowing typecasting. To learn more, visit Java Typecasting.
+This process works fine when the value of the long variable is less than or equal to the maximum value of int (2147483647).
+ However, if the value of the long variable is greater than the maximum int value, then there will be a loss in data.
+
+CASE 2: long to int conversion using toIntExact()
+We can also use the toIntExact() method of the Math class to convert the long value into an int.
+Here, the Math.toIntExact(value1) method converts the long variable value1 into int and returns it.
+The toIntExact() method throws an exception if the returned int value is not within the range of the int data type. That is,
+
+CASE 3: Convert object of the Long class to int
+In Java, we can also convert the object of wrapper class Long into an int.
+ For this, we can use the intValue() method. For, example,
+Here, we have created an object of the Long class named obj.
+ We then used the intValue() method to convert the object into int type.
