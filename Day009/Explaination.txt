@@ -1,0 +1,17 @@
+                                                                                           ****EXPLAINATION****
+                                                          Java Program to Remove All Whitespaces from a String
+
+In this program, We will learn to remove all whitespaces in a given string using regular expressions in Java.
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Strings
+Java Basic Input and Output
+
+CASE1:
+In this program, we use String's replaceAll() method to remove and replace all whitespaces in the string sentence.
+We've used regular expression \\s that finds all white space characters (tabs, spaces, new line character, etc.) in the string.
+ Then, we replace it with "" (empty string literal).
+
+CASE 2:
+ Take string from users and remove the white space
+In this program, we have used the Java Scanner to take input from the user.
+Here, the replaceAll() method replaces all the white spaces from the string.
