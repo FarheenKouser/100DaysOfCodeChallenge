@@ -1,0 +1,13 @@
+                                                                                           ****EXPLAINATION****
+                                                                         Java Program to Generate Multiplication Table
+
+In this program, we will learn to generate multiplication table of a given number.
+ This is done by using a for and a while loop in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java for Loop
+Java while and do...while Loop
+
+For this we have created multiploication table by using for loop and while loop.
+Though both programs are technically correct, it is better to use for loop in this case.
+ It's because the number of iteration (from 1 to 10) is known.
