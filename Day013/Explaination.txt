@@ -1,0 +1,10 @@
+                                                                                       ****EXPLAINATION****
+                                                                        Java Code To Create Pyramid and Pattern
+ 
+In this program, we will learn to create pyramid, half pyramid, inverted pyramid, using control statements in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java for Loop
+Java if...else Statement
+Java while and do...while Loop
