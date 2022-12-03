@@ -1,0 +1,51 @@
+                                                                      ****JAVA PROGRAM TO REVERSE A NUMBER****
+
+QUESTION:
+
+Example 1: Reverse 1234 using a while loop in Java.
+
+CODE:
+class Main {
+  public static void main(String[] args) {
+
+    int num = 1234, reversed = 0;
+    
+    System.out.println("Original Number: " + num);
+
+    // run loop until num becomes 0
+    while(num != 0) {
+    
+      // get last digit from num
+      int digit = num % 10;
+      reversed = reversed * 10 + digit;
+
+      // remove the last digit from num
+      num /= 10;
+    }
+
+    System.out.println("Reversed Number: " + reversed);
+  }
+}
+
+OUTPUT:
+Reversed Number: 4321
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Reverse 1234567 using a for loop in Java
+
+CODE:
+class Main {
+  public static void main(String[] args) {
+    
+    int num = 1234567, reversed = 0;
+
+    for(;num != 0; num /= 10) {
+      int digit = num % 10;
+      reversed = reversed * 10 + digit;
+    }
+
+    System.out.println("Reversed Number: " + reversed);
+  }
+}
+
+OUTPUT:
+Reversed Number: 7654321
