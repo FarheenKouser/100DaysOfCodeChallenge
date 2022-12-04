@@ -1,0 +1,35 @@
+                                                                                ****EXPLAINATION****
+                                                                      Java Program to Check Palindrome
+
+In this program, we wi ll learn to check whether a string or number is palindrome or not in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Strings
+Java while and do...while Loop
+Java for Loop
+Java if...else Statement
+
+A string is called a palindrome string if the reverse of that string is the same as the original string.
+ For example, radar, level, etc.
+Similarly, a number that is equal to the reverse of that same number is called a palindrome number.
+ For example, 3553, 12321, etc.
+
+To check a Palindrome in Java, we first reverse the string or number and
+ compare the reversed string or number with the original value.
+
+Example 1: Java Program to Check Palindrome String
+In the above example, we have a string "Radar" stored in str. Here, we have used the
+1. for loop to reverse the string
+The loop runs from the end to the beginning of the string.
+The charAt() method accesses each character of the string.
+Each character of the string is accessed in reverse order and stored in reverseStr.
+2. if statement to compare str and reverseStr
+The toLowerCase() method converts both str and reverseStr to lowercase. 
+This is because Java is case sensitive and 'r' and 'R' are two different values.
+The equals() method checks if two strings are equal.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Java Program to Check Palindrome Number
+In the above example, we have a number 3553 stored in num and originalNum variables.
+ Here, we have used the
+while loop to reverse num and store the reversed number in reversedNum
+if...else to check if reversedNum is same as the originalNum
