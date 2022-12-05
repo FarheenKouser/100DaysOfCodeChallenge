@@ -1,0 +1,20 @@
+                                                                ****EXPLAINATION****
+                                   Java Program to Make a Simple Calculator Using switch...case
+
+In this program, we will learn to make a simple calculator using switch..case in Java.
+ This calculator would be able to add, subtract, multiply and divide two numbers.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java switch Statement
+Java Scanner Class
+
+Here, we have used the Scanner class to take 3 inputs from the user.
+operator - specifies the operation to be performed
+number1/number2 - operands to perform operation on
+Since the operator matches the case '*', so the corresponding codes are executed.
+result = number1 * number2;
+System.out.println(number + " * " + number2 + " = " + result);
+break;
+These statements compute the product of two numbers and print the output.
+ Finally, the break statement ends the switch statement.
+Similarly, for different operators, different cases are executed.
