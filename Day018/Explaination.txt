@@ -1,0 +1,16 @@
+                                                                            ****EXPLAINATION****
+                                     Java Program to Sort Elements in Lexicographical Order (Dictionary Order)
+
+In this program, we will learn to sort the element words in lexicographical order using a for loop and if else in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java for Loop
+Java if...else Statement
+Java Strings
+
+In this  example, we have created a String array named words. The array includes 5 elements.
+Here, we are using
+for loops to access and compare each array element
+compareTo() method to perform the comparison
+Since we are sorting elements in lexicographical (dictionary) order, 
+we are swapping elements if the first element comes after the second element in the dictionary.
