@@ -1,0 +1,15 @@
+                                                                          ****EXPLAINATION****
+                                                          Java Program to Find G.C.D Using Recursion
+
+In this program, We will learn to find the GCD (Greatest Common Divisor) or HCF using a recursive function in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Methods
+Java Recursion
+
+This program takes two positive integers and calculates GCD using recursion.
+The HCF or GCD of two integers is the largest integer that can exactly divide both numbers 
+(without a remainder).
+
+In this program, the recursive function is called until n2 is 0.
+ In the end, the value of n1 is the GCD or HCF of the given two numbers.
