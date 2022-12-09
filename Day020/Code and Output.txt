@@ -1,0 +1,81 @@
+                                           ****JAVA PROGRAM TO CALL ONE CONSTRUCTOR FROM ANOTHER****
+
+QUESTION:
+
+Example 1: Java program to call one constructor from another
+
+CODE:
+class Main {
+
+  int sum;
+
+  // first constructor
+  Main() {
+    // calling the second constructor
+    this(5, 2);
+  }
+
+  // second constructor
+  Main(int arg1, int arg2) {
+    // add two value
+    this.sum = arg1 + arg2;
+  }
+
+  void display() {
+    System.out.println("Sum is: " + sum);
+  }
+
+  // main class
+  public static void main(String[] args) {
+
+    // call the first constructor
+    Main obj = new Main();
+
+    // call display method
+    obj.display();
+  }
+}
+
+OUTPUT:
+Sum is: 7
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Call the constructor of the superclass from the constructor of the child class
+
+CODE:
+// superclass
+class Languages {
+
+  // constructor of the superclass
+  Languages(int version1, int version2) {
+
+    if (version1 > version2) {
+      System.out.println("The latest version is: " + version1);
+    }
+
+    else {
+      System.out.println("The latest version is: " + version2);
+    }
+
+  }
+}
+
+// child class
+class Main extends Languages {
+
+  // constructor of the child class
+  Main() {
+    // calling the constructor of super class
+    super(11, 8);
+  }
+
+  // main method
+  public static void main(String[] args) {
+
+    // call the first constructor
+    Main obj = new Main();
+
+  }
+}
+
+OUTPUT:
+The latest version is: 11

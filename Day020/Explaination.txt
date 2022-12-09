@@ -1,0 +1,28 @@
+                                                                           ****EXPLAINATION****
+                                                Java Program to Call One Constructor from another
+
+In this example, we will learn how we can call one constructor from another constructor in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Constructors
+Java Methods
+
+Example 1: Java program to call one constructor from another
+In this example, we have created a class named Main.
+ Here, you have created two constructors inside the Main class.
+Main() {..}
+Main(int arg1, int arg2) {...}
+Inside the first constructor, we have used this keyword to call the second constructor.
+this(5, 2);
+Here, the second constructor is called from the first constructor by passing arguments 5 and 2.
+
+Note: The line inside a constructor that calls another constructor should be the first line of the constructor. 
+That is, this(5, 2) should be the first line of Main().
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Call the constructor of the superclass from the constructor of the child class
+We can also call the constructor of the superclass from the constructor of child class using super().
+In the above example, we have created a superclass named Languages and a subclass Main.
+ Inside the constructor of the Main class, notice the line,
+super(11, 8);
+Here, we are calling the constructor of the superclass (i.e. Languages(int version1, int version2))
+ from the constructor of the subclass (Main()).
