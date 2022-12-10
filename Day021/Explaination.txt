@@ -1,0 +1,37 @@
+                                                                     ****EXPLAINATION****
+                                                 Java Program to implement private constructors
+
+In this example, we will learn to implement private constructors in Java.
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Constructors
+Java Singleton Class
+
+Example 1: Java program to create a private constructor
+
+In this example, we have created a private constructor of the Test class. 
+Hence, we cannot create an object of the Test class outside of the class.
+
+This is why we have created a public static method named instanceMethod() inside the class 
+that is used to create an object of the Test class. And from the Main class, we call the method using the class name.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Java Singleton design using a private constructor
+The Java Singleton design pattern ensures that there should be only one instance of a class.
+ To achieve this we use the private constructor.
+
+In this example, we have created a class named Languages. The class contains,
+language - class type private variable
+Language() - private constructor
+getInstance() - public static class type method
+display() - public method
+Since the constructor is private, we cannot create objects of Language from the outer class.
+ Hence, we have created an object of the class inside the getInstance() method.
+
+However, we have set the condition in such a way that only one object is created. 
+And, the method returns the object.
+Notice the line,
+db1 = Language.getInstance();
+Here,
+db1 is a variable of Language type
+Language.getInstance() - calls the method getInstance()
+Since, getInstance() returns the object of the Language class, the db1 variable is assigned with the returned object.
+Finally, we have called the display() method using the object.

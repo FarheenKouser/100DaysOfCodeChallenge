@@ -1,0 +1,79 @@
+                                        ****JAVA PROGRAM TO IMPLEMENT PRIVATE CONSTRUCTORS****
+
+QUESTION:
+
+Example 1: Java program to create a private constructor
+
+CODE:
+class Test {
+
+  // create private constructor
+  private Test () {
+    System.out.println("This is a private constructor.");
+  }
+
+  // create a public static method
+  public static void instanceMethod() {
+
+    // create an instance of Test class
+    Test obj = new Test();
+  }
+
+}
+
+class Main {
+
+  public static void main(String[] args) {
+
+    // call the instanceMethod()
+    Test.instanceMethod();
+  }
+}
+
+OUTPUT:
+This is a private constructor.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Java Singleton design using a private constructor
+
+CODE:
+class Language {
+
+  // create a public static variable of class type
+  private static Language language;
+
+  // private constructor
+  private Language() {
+    System.out.println("Inside Private Constructor");
+  }
+
+  // public static method
+  public static Language getInstance() {
+
+     // create object if it's not already created
+     if(language == null) {
+        language = new Language();
+     }
+
+      // returns the singleton object
+      return language;
+  }
+
+  public void display() {
+      System.out.println("Singleton Pattern is achieved");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+     Language db1;
+
+     // call the getInstance method
+     db1= Language.getInstance();
+
+     db1.display();
+  }
+}
+
+OUTPUT:
+Inside Private Constructor
+Singleton Pattern is achieved.
