@@ -1,0 +1,17 @@
+                                                            ****EXPLAINATION****
+                                          Java Program to Calculate Average Using Arrays
+
+In this program, we will learn to calculate the average of the given arrays in Java.
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Arrays
+Java for-each Loop
+
+Example: Program to Calculate Average Using Arrays
+
+In this program, the numArray stores the floating-point values whose average is to be found.
+Then, to calculate the average, we need to first calculate the sum of all elements in the array. 
+This is done using a for-each loop in Java.
+Finally, we calculate the average by the formula:
+average = sum of numbers / total count
+In this case, the total count is given by numArray.length.
+Finally, we print the average using format() function so that we limit the decimal points to only 2 using "%.2f"
