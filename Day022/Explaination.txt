@@ -1,0 +1,19 @@
+                                                                        ****EXPLAINATION****
+                                              Java Program to Calculate the Execution Time of Methods
+
+In this example, we will learn to calculate the execution time of normal methods and recursive methods in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Methods
+Java Recursion
+
+Example 1: Java Program to calculate the method execution time
+
+In this example, we have created a method named display().
+ The method prints a statement to the console. The program calculates the execution time of the method display().
+
+Here, we have used the method nanoTime() of the System class. 
+The nanoTime() method returns the current value of the running JVM in nanoseconds.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Calculate the execution time of Recursive method.
+In the above example, we are calculating the execution time of recursive method named factorial().
