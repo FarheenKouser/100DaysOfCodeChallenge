@@ -1,0 +1,27 @@
+                                                           ****EXPLAINATION****
+                                       Java Program to Calculate Standard Deviation
+
+In this program, We will learn to calculate the standard deviation using a function in Java.
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Arrays
+Java Methods
+
+This program calculates the standard deviation of a individual series using arrays. 
+Standard Deviation-The Standard Deviation is a measure of how spread out numbers are.
+                                       Its symbol is σ (the greek letter sigma)
+           The formula is easy: it is the square root of the Variance.
+ So now you ask, "What is the Variance?"
+Variance-The Variance is defined as:
+                   The average of the squared differences from the Mean.
+
+To calculate the standard deviation, calculateSD() function is created. 
+The array containing 10 elements is passed to the function and
+ this function calculates the standard deviation and returns it to the main() function.
+
+Example: Program to Calculate Standard Deviation
+In this program, we've used the help of Java Math.pow() and Java Math.sqrt()
+ to calculate the power and square root respectively.
+
+Note: This program calculates the standard deviation of a sample.
+ If you need to compute S.D. of a population, return Math.sqrt(standardDeviation/(length-1))
+ instead of Math.sqrt(standardDeviation/length) from the calculateSD() method.
