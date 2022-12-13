@@ -1,0 +1,24 @@
+                                    ****JAVA PROGRAM TO FIND LARGEST ELEMENT OF AN ARRAY****
+
+QUESTION:
+
+Example: Find the largest element in an array
+
+CODE:
+public class Largest {
+
+    public static void main(String[] args) {
+        double[] numArray = { 23.4, -34.5, 50.0, 33.5, 55.5, 43.7, 5.7, -66.5 };
+        double largest = numArray[0];
+
+        for (double num: numArray) {
+            if(largest < num)
+                largest = num;
+        }
+
+        System.out.format("Largest element = %.2f", largest);
+    }
+}
+ 
+OUTPUT:
+Largest element = 55.50

@@ -1,0 +1,16 @@
+                                                               ****EXPLAINATION****
+                                         Java Program to Find Largest Element of an Array
+ 
+In this program, We will learn to find the largest element in an array using a for loop in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Arrays
+Java for-each Loop
+
+Example: Find the largest element in an array
+
+In the above program, we store the first element of the array in the variable largest.
+Then, largest is used to compare other elements in the array.
+ If any number is greater than largest, largest is assigned the number.
+
+In this way, the largest number is stored in largest when it is printed.
