@@ -1,0 +1,20 @@
+                                                               ****EXPLAINATION****
+                          Java Program to Add Two Matrix Using Multi-dimensional Arrays
+
+In this program, We will learn to add two matrices using multi-dimensional arrays in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Arrays
+Java for Loop
+
+Example: Program to Add Two Matrices
+
+In this program, the two matrices are stored in 2d array, namely firstMatrix and secondMatrix.
+ We've also defined the number of rows and columns and stored them in variables rows and columns respectively.
+
+Then, we initialize a new array of the given rows and columns called sum. 
+This matrix array stores the addition of the given matrices.
+
+We loop through each index of both arrays to add and store the result.
+
+Finally, we loop through each element in the sum array using the for-each loop to print the elements.
