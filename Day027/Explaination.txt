@@ -1,0 +1,30 @@
+                                                          ****EXPLAINATION****
+                                          Java Program to Find Transpose of a Matrix
+ 
+In this program, We will learn to find and print the transpose of a given matrix in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Arrays
+Java Multidimensional Arrays
+Java Methods
+
+Transpose of a matrix is the process of swapping the rows to columns. For 2x3 matrix,
+
+Matrix
+a11    a12    a13
+a21    a22    a23
+
+Transposed Matrix
+a11    a21
+a12    a22
+a13    a23
+
+Example: Program to Find Transpose of a Matrix
+
+In this program, display() function is only used to print the contents of a matrix to the screen.
+Here, the given matrix is of form 2x3, i.e. row = 2 and column = 3.
+For the transposed matrix, we change the order of transposed to 3x2, i.e. row = 3 and column = 2. 
+So, we have transpose = int[column][row]
+
+The transpose of the matrix is calculated by simply swapping columns to rows:
+transpose[j][i] = matrix[i][j];
