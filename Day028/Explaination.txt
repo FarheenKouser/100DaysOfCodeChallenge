@@ -1,0 +1,33 @@
+                                                                 ****EXPLAINATION****
+                                 Java Program to Check if An Array Contains a Given Value
+
+In this program, We will learn to check if an array contains a given value in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Arrays
+Java Data Types (Primitive)
+
+Example 1: Check if Int Array contains a given value
+
+In this program, we have an array of integers stored in variable num.
+ Likewise, the number to be found is stored in toFind.
+
+Now, we use a for-each loop to iterate through all elements of num and
+ check individually if toFind is equal to n or not.
+
+If yes, we set found to true and break from the loop. If not, we move to the next iteration.
+-------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Check if an array contains the given value using Stream
+
+In this program, instead of using a for-each loop,
+ we convert the array to an IntStream and use its anyMatch() method.
+anyMatch() method takes a predicate, an expression, or a function that returns a boolean value.
+ In our case, the predicate compares each element n in the stream to toFind and returns true or false.
+
+If any of the element n returns true, found is set to true as well.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Example 3: Check if an array contains a given value for non-primitive types
+
+In the above program, we've used a non-primitive data type String and 
+used Arrays's stream() method to first convert it to a stream and
+ anyMatch() to check if the array contains the given value toFind.
