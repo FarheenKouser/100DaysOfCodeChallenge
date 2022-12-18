@@ -1,0 +1,24 @@
+                                                                          ****EXPLAINATION****
+                                Java Program to Add Two Complex Numbers by Passing Class to a Function
+
+In this program, We will learn to add two complex numbers in Java by creating a class named Complex
+ and passing it into a function add().
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Class and Objects
+Java Methods
+
+Example: Add Two Complex Numbers
+
+In this program, we created a class Complex with two member variables: real and imag.
+ As name suggests, real stores real part of a complex number and imag stores the imaginary part.
+
+The Complex class has a constructor with initializes the value of real and imag.
+
+We also created a new static function add() that takes two complex numbers as parameters and 
+returns the result as a complex number.
+
+Inside the add() method, we just add the real and imaginary parts of complex numbers n1 and n2,
+ store it in a new variable temp and return temp.
+
+Then, in the calling function main(), we print it using printf() function.
