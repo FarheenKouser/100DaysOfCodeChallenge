@@ -1,0 +1,36 @@
+                                                             ****EXPLAINATION****
+                                     Java Program to Determine the class of an object
+
+In this example, we will learn to determine the class of an object in Java using the getClass() method, 
+instanceof operator, and the isInstance() method.
+
+To understand this example, We should have the knowledge of the following Java programming topics:
+Java Class and Objects
+Java instanceof Operator
+
+Example 1: Check the class of an object using getClass()
+
+In this example, we have used the getClass() method of the Object class to
+ get the class name of the objects obj1 and obj2.
+
+The Java Object getClass() method returns the class name of the object.
+
+The syntax of the getClass() method is:
+object.getClass()
+getClass() Parameters
+
+The getClass() method does not take any parameters.
+getClass() Return Values
+returns the class of the object that calls the method
+--------------------------------------------------------------------------------------------------------------------------
+Example 2: Check the class of an object using instanceOf operator
+
+In this example, we have used the instanceof operator to check
+ if the object obj is an instance of the class Test.
+---------------------------------------------------------------------------------------------------------------------------
+Example 3: Check the class of an object using isInstance()
+
+Here, we have used the isInstance() method of the class Class to check
+ if the object obj is an object of the class Test.
+The isInstance() method works similarly to the instanceof operator. 
+However, it is preferred during the run time.
