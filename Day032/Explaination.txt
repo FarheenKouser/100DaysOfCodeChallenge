@@ -1,0 +1,21 @@
+                                                   ****EXPLAINATION****
+                                    Java Program to Create an enum class
+ 
+In this example, we will learn to create an enum class in Java.
+
+To understand this example, you should have the knowledge of
+ the following Java programming topics:
+Java enums
+Java Class and Objects
+
+Example 1: Java program to create an enum class
+
+In this example, we have created an enum class named Size. The class contains four constants
+ SMALL, MEDIUM, LARGE, and EXTRALARGE.
+
+Here, the compiler automatically converts all the constants of the enum into its instances. 
+Hence, we can call the method using the constant as objects.
+
+Size.SMALL.getSize()
+In this call, the this keyword is now associated with the SMALL object.
+ Hence, the value small is returned.
