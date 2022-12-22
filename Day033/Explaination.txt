@@ -1,0 +1,23 @@
+                                                  ****EXPLAINATION****
+                                      Java Program to Convert String to Date
+
+In this program, We will learn to convert string to date in Java using formatter.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Strings
+Java Basic Input and Output
+
+Example 1: Convert String to Date using predefined formatters
+
+In this program, we've used the predefined formatter ISO_DATE that takes 
+date string in the format 2017-07-25 or 2017-07-25+05:45'.
+
+The LocalDate's parse() function parses the given string using the given formatter.
+ You can also remove the ISO_DATE formatter in the above example and replace the parse() method with:
+LocalDate date = LocalDate.parse(string, DateTimeFormatter);
+------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Convert String to Date using pattern formatters
+
+In this program, our date is in the format MMMM d, yyyy. 
+So, we create a formatter of the given pattern. 
+Now, we can parse the date using LocalDate.parse() function and get the LocalDate object.
