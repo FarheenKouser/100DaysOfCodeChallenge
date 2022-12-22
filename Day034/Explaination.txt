@@ -1,0 +1,16 @@
+                                                              ****EXPLAINATION****
+                                    Java Program to Compute all the permutations of the string
+
+In this example, we will learn to compute all the permutations of the string in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Strings
+Java Recursion
+Java Scanner Class
+
+Permutation of the string means all the possible new strings that can be formed by interchanging
+ the position of the characters of the string.
+
+ For example, string ABC has permutations [ABC, ACB, BAC, BCA, CAB, CBA].
+In Java, we have used the recursion to compute all the permutations of a string.
+ Here, we store the permutation in a set. So, there will be no duplicate permutation.
