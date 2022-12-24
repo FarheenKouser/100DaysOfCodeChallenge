@@ -1,0 +1,74 @@
+                   ****JAVA PROGRAM TO CAPITALIZE THE FIRST CHARACTER OF EACH WORD IN A STRING****
+
+QUESTION:
+
+Example 1: Java program to make the first letter of a String capital
+
+CODE-
+class Main {
+  public static void main(String[] args) {
+
+    // create a string
+    String name = "programiz";
+
+    // create two substrings from name
+    // first substring contains first letter of name
+    // second substring contains remaining letters
+    String firstLetter = name.substring(0, 1);
+    String remainingLetters = name.substring(1, name.length());
+
+    // change the first letter to uppercase
+    firstLetter = firstLetter.toUpperCase();
+
+    // join the two substrings
+    name = firstLetter + remainingLetters;
+    System.out.println("Name: " + name);
+
+  }
+}
+
+OUTPUT-
+Name: Programiz 
+-------------------------------------------------------------------------------------------------------------------------------
+
+Example 2: Convert every word of a String to uppercase
+
+CODE-
+class Main {
+  public static void main(String[] args) {
+
+    // create a string
+    String message = "everyone loves java";
+
+    // stores each characters to a char array
+    char[] charArray = message.toCharArray();
+    boolean foundSpace = true;
+
+    for(int i = 0; i < charArray.length; i++) {
+
+      // if the array element is a letter
+      if(Character.isLetter(charArray[i])) {
+
+        // check space is present before the letter
+        if(foundSpace) {
+
+          // change the letter into uppercase
+          charArray[i] = Character.toUpperCase(charArray[i]);
+          foundSpace = false;
+        }
+      }
+
+      else {
+        // if the new character is not character
+        foundSpace = true;
+      }
+    }
+
+    // convert the char array to the string
+    message = String.valueOf(charArray);
+    System.out.println("Message: " + message);
+  }
+}
+
+OUTPUT-
+Message: Everyone Loves Java

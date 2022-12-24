@@ -1,0 +1,20 @@
+                                                             ****EXPLAINATION****
+                              Java Program to Capitalize the first character of each word in a String
+
+In this example, we will learn to convert the first letter of a string into the uppercase in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Strings
+Java String toUpperCase()
+
+Example 1: Java program to make the first letter of a String capital
+
+In the example, we have converted the first letter of the string name to upper case.
+---------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Convert every word of a String to uppercase
+
+Here,
+we have created a string named message
+we converted the string into a char array
+we access every element of the char array
+if the element is a white space, we convert the next element into uppercase
