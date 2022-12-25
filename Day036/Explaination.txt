@@ -1,0 +1,36 @@
+                                                         ****EXPLAINATION****       
+                                Java Program to Implement switch statement on strings
+
+In this example, we will learn to implement the switch statement on strings in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java switch Statement
+Java Strings
+
+The switch statement- allows us to execute a block of code among many alternatives.
+The syntax of the switch statement in Java is:
+
+switch (expression) {
+
+  case value1:
+    // code
+    break;
+  
+  case value2:
+    // code
+    break;
+  
+  ...
+  ...
+  
+  default:
+    // default statements
+  }
+
+How does the switch-case statement work?
+The expression is evaluated once and compared with the values of each case.
+
+If expression matches with value1, the code of case value1 are executed. 
+Similarly, the code of case value2 is executed if expression matches with value2.
+If there is no match, the code of the default case is executed.
+
