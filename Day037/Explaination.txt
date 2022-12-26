@@ -1,0 +1,20 @@
+                                                    ****EXPLAINATION***
+                                Java Program to Check if a string contains a substring
+
+In this example, we will learn to check if a string contains a substring using 
+contains() and indexOf() method in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Strings
+Java String substring()
+
+Example 1: Check if a string contains a substring using contains()
+
+In this example, we have three string txt, str1, and str2. Here, we have used the String 
+contains() method to check if strings str1 and str2 are present in txt.
+------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Check if a string contains a substring using indexOf()
+
+In this example, we have used the String indexOf() method to find the position of the
+ strings str1 and str2 in txt. If the string is found the position of the string is returned.
+ Otherwise, -1 is returned.
