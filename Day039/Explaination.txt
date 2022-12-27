@@ -1,0 +1,21 @@
+                                                  ****EXPLAINATION****
+                                     Java Program to Convert a List to Array 
+
+In this example, we will learn to convert a Java list to an array.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java ArrayList
+Java Arrays
+Java List
+
+Example 1: Convert the Java List into Array
+
+In this example, we have created an list named languages.
+ Here, we have used the ArrayList class to implement the List.
+
+Notice the line,
+languages.toArray(arr);
+
+Here, the toArray() method converts the list languages into an array. And stores it in the string array arr.
+
+Note: If we don't pass any argument to the toArray() method, the method returns an array of the Object type.
