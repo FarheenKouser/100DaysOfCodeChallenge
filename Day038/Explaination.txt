@@ -1,0 +1,29 @@
+                                                          ****EXPLAINATION****
+                                                     Java Program to Join Two Lists
+
+In this program, we will learn different techniques to join two lists in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+1.Java List-In Java, the List interface is an ordered collection that allows us to store and
+                       access elements sequentially. It extends the Collection interface.
+
+2.Java ArrayList-In Java, we use the ArrayList class to implement the functionality of resizable-arrays.
+                                 It implements the List interface of the collections framework.
+
+3.Java ArrayList addAll()-The addAll() method adds all the elements of a collection to the arraylist.
+                                                  The syntax of the addAll() method is:      arraylist.addAll(int index, Collection c)
+                                                  Here, arraylist is an object of the ArrayList class.
+
+Example 1: Join Two Lists using addAll()
+
+In this program, we used List's addAll() method to join lists list1 and list2 to the joined list.
+-------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Join Two Lists using union()
+
+In this program, we used union() method to join the given lists to joined.
+--------------------------------------------------------------------------------------------------------------------------------------
+Example 3: Join Two Lists using stream
+
+In this program, we used Stream's concat() method to join two lists converted to streams. 
+Then, we convert them back to List using toList().
