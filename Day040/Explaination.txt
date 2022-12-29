@@ -1,0 +1,43 @@
+                                                ****EXPLAINATION****
+                               Java Program to Convert Map (HashMap) to List
+
+In this program, We will learn different techniques to convert a map to a list in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+1.Java Map Interface-The Map interface of the Java collections framework provides
+                                      the functionality of the map data structure.
+                                     In Java, elements of Map are stored in key/value pairs.
+                                     Keys are unique values associated with individual Values.
+                                      A map cannot contain duplicate keys.
+                                     And, each key is associated with a single value.
+
+2. Java HashMap-The HashMap class of the Java collections framework provides
+                               the functionality of the hash table data structure.
+                                It stores elements in key/value pairs. 
+                           Here, keys are unique identifiers used to associate each value on a map.
+                              The HashMap class implements the Map interface.
+
+3.Java List-In Java, the List interface is an ordered collection that allows us to 
+                      store and access elements sequentially. It extends the Collection interface.
+
+4.Java ArrayList-In Java, we use the ArrayList class to implement the
+                                 functionality of resizable-arrays.
+                                 It implements the List interface of the collections framework.
+
+Example 1: Convert Map to List
+
+In this program, we have a map of Integer and String named map. 
+Since the map contains a key, value pair, we need two lists to store each of them, 
+namely keyList for keys and valueList for values.
+
+We used map's keySet() method to get all the keys and created an ArrayList keyList from them.
+ Likewise, we used the map's values() method to get all the values and
+ created an ArrayList valueList from them.
+------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Convert Map to List using stream
+
+In this program, instead of using ArrayList constructor, we've used stream() to convert the map to a list.
+
+We've converted the keys and values to stream and convert it to a list using 
+collect() method passing Collectors' toList() as a parameter.
