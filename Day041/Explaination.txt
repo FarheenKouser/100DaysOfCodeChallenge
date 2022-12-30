@@ -1,0 +1,25 @@
+                                          ****EXPLAINATION****
+                                  Java Program to Sort a Map By Values
+
+In this program, we will learn to sort a given map by values in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Map Interface
+Java LinkedHashMap
+
+In this program, we have created a LinkedHashMap named capitals.
+ The map stores countries and their respective capitals.
+Here, we have created a sortMap() method that takes the map and returns the sorted map.
+
+Inside the method, we first created a list named capitalList from the map capitals. 
+We then use the sort() method of Collections to sort elements of the list.
+
+The sort() method takes two parameters: list to be sorted and a comparator.
+ In our case, the comparator is a lambda expression.
+(l1, l2) -> l1.getValue().compareTo(l2.getValue())
+Here, the lambda expression takes two adjacent element (l1 and l2) of the list.
+ It then used the getValue() method to get the value and the compareTo() method to compare two values.
+
+After the operation, we get the sorted list capitalList. 
+Then, we simply convert the list to LinkedHashMap named result and return it.
+Back in the main() method, we loop through each item in the map and print its key and value.
