@@ -1,0 +1,35 @@
+                                   ****EXPLAINATION****
+                       Java Program to Implement LinkedList
+
+In this example, we will learn to implement the linked list data structure in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+
+Java LinkedList-The LinkedList class of the Java collections framework provides the functionality of 
+                                the linked list data structure (doubly linkedlist).
+                              A single node of doubly linkedlist that has 3 fields Prev, Data, and Next.
+                                      1.Prev - stores an address of the previous element in the list.
+                                                      It is null for the first element
+                                      2.Next - stores an address of the next element in the list.
+                                                       It is null for the last element
+                                      3.Data - stores the actual data
+
+Java Generics-Java Generics allows us to create a single class, interface, and method
+                           that can be used with different types of data (objects).
+                           This helps us to reuse our code.
+               Note: Generics does not work with primitive types (int, float, char, etc).
+
+Example 1: Java program to implement LinkedList
+
+In this example, we have implemented the singly linked list in Java.
+ Here, the linked list consists of 3 nodes.
+Each node consists of value and next. The value variable represents the value of the node and
+ the next represents the link to the next node.
+----------------------------------------------------------------------------------------------------------------------------------
+Example 2: Implement LinkedList using LinkedList class
+
+Java provides a built LinkedList class that can be used to implement a linked list.
+In this example, we have used the LinkedList class to implement the linked list in Java.
+ Here, we have used methods provided by the class to add elements and access elements from the linked list.
+Notice, we have used the angle brackets (<>) while creating the linked list.
+ It represents that the linked list is of the generic type.
