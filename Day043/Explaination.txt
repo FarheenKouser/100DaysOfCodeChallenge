@@ -1,0 +1,31 @@
+                                   ****EXPLAINATION****
+                Java Program to Implement stack data structure
+
+In this example, we will learn to implement the stack data structure in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+
+Java Stack Class-The Java collections framework has a class named Stack that provides 
+                                  the functionality of the stack data structure.
+                                 The Stack class extends the Vector class.
+
+Java Generics-Java Generics allows us to create a single class, interface, and method that can be
+                            used with different types of data (objects).
+                            This helps us to reuse our code.
+                     Note: Generics does not work with primitive types (int, float, char, etc).
+                            We can create a class that can be used with any type of data.
+                             Such a class is known as Generics Class.
+
+Example 1: Java program to implement Stack
+
+In this example, we have implemented the stack data structure in Java.
+A stack is a linear data structure that follows the principle of Last In First Out (LIFO).
+ This means the last element inserted inside the stack is removed first.
+-----------------------------------------------------------------------------------------------------------------------------
+Example 2: Implement stack using Stack class
+Java provides a built Stack class that can be used to implement a stack.
+In this example, we have used the Stack class to implement the stack in Java. Here,
+animals.push() - insert elements to top of the stack
+animals.pop() - remove element from the top of the stack
+Notice, we have used the angle brackets <String> while creating the stack.
+ It represents that the stack is of the generic type.
