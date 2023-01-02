@@ -1,0 +1,50 @@
+                                           ****EXPLAINATION****
+                 Java Program to Implement the queue data structure
+
+In this example, we will learn to implement the queue data structure in Java.
+
+To understand this example, We should have the knowledge of the following Java programming topics:
+
+Java Queue Interface-The Queue interface of the Java collections framework provides the
+                                          functionality of the queue data structure. It extends the Collection interface.
+                                    Since the Queue is an interface, we cannot provide the direct implementation of it.
+                        In order to use the functionalities of Queue, we need to use classes that implement it:
+                                                   ArrayDeque
+                                                   LinkedList
+                                                  PriorityQueue
+                                  The Queue interface is also extended by various subinterfaces:
+                                             Deque
+                                            BlockingQueue
+                                            BlockingDeque
+
+Java Generics-Java Generics allows us to create a single class, interface, and method that can be used 
+                            with different types of data (objects).
+                               This helps us to reuse our code.
+                       Note: Generics does not work with primitive types (int, float, char, etc).
+
+Example 1: Java program to implement Stack
+
+In this example, we have implemented the queue data structure in Java.
+A queue is a useful data structure in programming. It is similar to the ticket queue outside a cinema hall,
+ where the first person entering the queue is the first person who gets the ticket.
+
+Queue follows FIFO rule - the item that goes in first is the item that comes out first.
+
+In programming terms, putting items in the queue is called enqueue, and 
+removing items from the queue is called dequeue.
+----------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Implement stack using Queue interface
+
+Java provides a built Queue interface that can be used to implement a queue.
+In this example, we have used the Queue interface to implement the queue in Java.
+ 
+Here, we have used the LinkedList class that implements the Queue interface.
+numbers.offer() - insert elements to the rear of the queue
+numbers.poll() - remove an element from the front of the queue
+Notice, we have used the angle brackets <Integer> while creating the queue. 
+It represents that the queue is of the generic type.
+
+We can also use other interfaces and classes instead of Queue and LinkedList. For example,
+Deque Interface
+ArrayDeque Class
+PriorityQueue Class
