@@ -1,0 +1,22 @@
+                                               ****EXPLAINATION****
+                   Java Program to Convert the LinkedList into an Array and vice versa
+
+In this example, we will learn to convert the linked list into an array and vice versa in Java.
+
+Example 1: Convert the LinkedList into Array
+
+In this example, we have created a linked list named languages. 
+Notice the line,
+languages.toArray(arr);
+Here, the toArray() method converts the linked list languages into an array. 
+And stores it in the string array arr.
+
+Note: If we don't pass any argument to the toArray() method,
+ the method returns an array of the Object type.
+--------------------------------------------------------------------------------------------------------------------
+Example 2: Convert Array to LinkedList
+In the above example, we have created an array of String type.
+
+ Notice the expression,
+Arrays.asList(array)
+Here, the asList() method of the Arrays class converts the specified array into the linked list.
