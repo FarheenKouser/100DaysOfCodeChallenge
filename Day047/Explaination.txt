@@ -1,0 +1,33 @@
+                                           ****EXPLAINATION****
+                    Java Program to Convert the ArrayList into a string and vice versa
+
+In this example, we will learn to convert the arraylist into a string and vice versa in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java ArrayList
+Java Strings
+
+Example 1: Convert the Arraylist into a String
+
+In the above example, we have created an arraylist named languages. 
+Notice the line,
+languages.toString();
+Here, the toString() method converts arraylist into a string.
+ The entire arraylist is converted as a single string.
+
+Note: We can also convert the arraylist into a string array.
+----------------------------------------------------------------------------------------------------------------------------------
+Example 2: Convert ArrayList to String Using join()
+
+In this example, we have used the join() method of the String class to convert
+ the arraylist into a string. 
+The join() method returns a new string with the given elements joined with the specified delimiter.
+-----------------------------------------------------------------------------------------------------------------------------------
+Example 3: Convert a String to ArrayList
+
+In this example, we have created a string named str. 
+We have used the split() method to convert the given string into an array
+
+Notice the expression,
+Arrays.asList(arr)
+The asList() method converts the string array into an arraylist.
