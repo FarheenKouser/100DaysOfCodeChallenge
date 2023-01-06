@@ -1,0 +1,28 @@
+                                         ****EXPLAINATION****
+                             Java Program to Iterate over an ArrayList
+
+In this example, we will learn to iterate over the elements of an arraylist in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java ArrayList
+Java for Loop
+Java for-each Loop
+Java ListIterator Interface
+
+Example 1: Iterate through ArrayList using for loop
+
+In this example, we have created an arraylist named languages. 
+Here, we have used the for loop to access each element of the arraylist.
+---------------------------------------------------------------------------------------------------------------
+Example 2: Iterate through ArrayList using for-each loop
+
+Here, we have used the for-each loop to iterate over the ArrayList and print each element.
+----------------------------------------------------------------------------------------------------------------
+Example 3: Iterate over ArrayList using listIterator()
+
+In this example, we have used the listIterator() method to iterate over the arraylist. 
+Here,
+hasNext() - returns true if there is next element in the arraylist
+next() - returns the next element of the arraylist
+Note: We can also use the ArrayList iterator() method and the ArrayList forEach() method
+ to iterate over the arraylist.
