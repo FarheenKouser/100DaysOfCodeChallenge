@@ -1,0 +1,31 @@
+                                  ****EXPLAINATION****
+                          Java Program to Iterate over a HashMap
+
+In this example, we will learn to iterate over keys, values, and key/value mappings of a Java HashMap.
+
+To understand this example,we should have the knowledge of the following Java programming topics:
+Java HashMap
+Java for-each Loop
+Java Iterator Interface
+In Java HashMap, we can iterate through its keys, values, and key/value mappings.
+
+Example 1: Iterate through HashMap using the forEach loop
+
+In this example, we have created a hashmap named languages. 
+Here, we have used the forEach loop to iterate through the elements of the hashmap.
+
+Notice that we are independently iterating through the keys, values, and key/value mappings.
+
+languages.entrySet() - returns the set view of all the entries
+languages.keySet() - returns the set view of all the keys
+languages.values() - returns the set view of all the values
+Note: We have used the Map.Entry class. It is the nested class that returns a view of the map.
+-----------------------------------------------------------------------------------------------------------------------------------
+Example 2: Iterate through HashMap using iterator()
+
+In this example, we are iterating through keys, values, and key/value mappings of the hash map.
+ We have used the iterator() method to iterate over the hashmap.
+ Here,
+hasNext() - returns true if there is next element in the hashmap
+next() - returns the next element of the hashmap
+Note: We can also use the HashMap forEach() method to iterate over the hashmap.
