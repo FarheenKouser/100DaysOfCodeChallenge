@@ -1,0 +1,96 @@
+                                     ****JAVA PROGRAM TO ITERATE OVER A SET****
+
+QUESTION-
+
+Example 1: Iterate through Set using the forEach loop
+
+CODE-
+import java.util.Set;
+import java.util.HashSet;
+
+
+class Main {
+  public static void main(String[] args) {
+    // Creating an set
+    Set<String> languages = new HashSet<>();
+    languages.add("Java");
+    languages.add("JavaScript");
+    languages.add("Python");
+    System.out.println("Set: " + languages);
+
+    // Using forEach loop
+    System.out.println("Iterating over Set using for-each loop:");
+    for(String language : languages) {
+      System.out.print(language);
+      System.out.print(", ");
+    }
+  }
+}
+
+OUTPUT-
+Set: [Java, JavaScript, Python]
+Iterating over Set using for-each loop:
+Java, JavaScript, Python,
+----------------------------------------------------------------------------------------------------------
+Example 2: Iterate through Set using iterator()
+
+CODE-
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Iterator;
+
+class Main {
+  public static void main(String[] args) {
+    // Creating an Set
+    Set<Integer> numbers = new HashSet<>();
+    numbers.add(1);
+    numbers.add(3);
+    numbers.add(2);
+    System.out.println("Set: " + numbers);
+
+    // Creating an instance of Iterator
+    Iterator<Integer> iterate = numbers.iterator();
+    System.out.println("Iterating over Set:");
+    while(iterate.hasNext()) {
+      System.out.print(iterate.next() + ", ");
+    }
+  }
+}
+
+OUTPUT-
+Set: [1, 2, 3]
+Iterating over Set:
+1, 2, 3,
+-------------------------------------------------------------------------------------------------
+Example 3: Iterate through Set using forEach() method
+
+CODE-
+import java.util.Set;
+import java.util.HashSet;
+
+class Main {
+  public static void main(String[] args) {
+    // create an Set
+    Set<Integer> numbers = new HashSet<>();
+
+    // add elements to the HashSet
+    numbers.add(1);
+    numbers.add(2);
+    numbers.add(3);
+    numbers.add(4);
+    System.out.println("Set: " + numbers);
+
+    // iterate each element of the set
+    System.out.print("Element of Set: ");
+
+    // access each element using forEach() method
+    // pass lambda expression to forEach()
+    numbers.forEach((e) -> {
+      System.out.print(e + " ");
+    });
+  }
+}
+
+OUTPUT-
+Set: [1, 2, 3, 4]
+Element of Set: 1 2 3 4

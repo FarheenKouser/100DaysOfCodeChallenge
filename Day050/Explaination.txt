@@ -1,0 +1,45 @@
+                                    ****EXPLAINATION****
+                               Java Program to Iterate over a Set
+
+In this example, we will learn to iterate over the elements of a set in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java HashSet Class-The HashSet class of the Java Collections framework provides the functionalities
+                                       of the hash table data structure.
+                                      It implements the Set interface.
+
+Java Iterator Interface-The Iterator interface of the Java collections framework allows us to access
+                                             elements of a collection. It has a subinterface ListIterator.
+
+Java for-each Loop-In Java, the for-each loop is used to iterate through elements of arrays and 
+                                       collections (like ArrayList). It is also known as the enhanced for loop.
+                      The syntax of the Java for-each loop is:
+                                     for(dataType item : array) {  ...  }
+                        Here,
+                            array - an array or a collection
+                            item - each item of array/collection is assigned to this variable
+                           dataType - the data type of the array/collection
+
+Example 1: Iterate through Set using the forEach loop
+
+In this example, we have created a set using the HashSet class. 
+Here, we have used the for-each loop to iterate each element of the set.
+-------------------------------------------------------------------------------------------------------------------------
+Example 2: Iterate through Set using iterator()
+
+In this example, we have used the HashSet class to create a set. 
+We have used the iterator() method to iterate over the set. 
+Here,
+hasNext() - returns true if there is next element in the set
+next() - returns the next element of the set
+---------------------------------------------------------------------------------------------------------------------------
+Example 3: Iterate through Set using forEach() method
+
+In this example, we have created a set named numbers using the HashSet class. 
+Notice the code,
+numbers.forEach((e) -> {
+  System.out.print(e + " ");
+});
+Here, we have used the forEach() method to access each element of the set. 
+The method takes the lambda expressions as it's argument. 
