@@ -1,0 +1,22 @@
+                           ****EXPLAINATION****
+                     Java Program to Merge two lists
+
+In this example, we will learn to merge two lists with the help of the addAll() method and the Stream class in Java.
+
+To understand this example,we should have the knowledge of the following Java programming topics:
+Java ArrayList
+Java List
+
+Example 1: Merge two lists using addAll()
+
+In this example, have two lists named prime and even.
+ Here, we have used the Java ArrayList addAll() method to add all elements
+ from prime and even to the new list named numbers.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Merge two lists using the Stream class
+
+In this example, we have used the Stream class to merge the two lists.
+ Here,
+stream() - converts the list into a stream
+concat() - merges the two streams
+collect(Collectors.toList()) - convert the stream into a list.
