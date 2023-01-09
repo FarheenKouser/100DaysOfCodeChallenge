@@ -1,0 +1,32 @@
+                                       ****EXPLAINATION***
+                    Java Program to Remove duplicate elements from ArrayList
+
+In this example, we will learn to convert the duplicate element from the ArrayList in Java.
+
+To understand example,we should have the knowledge of following Java topics:
+Java ArrayList
+Java Set Interface
+
+Example 1: Remove duplicate elements from ArrayList using Set
+
+In this example, we have created an arraylist named numbers.
+ The arraylist contains duplicate elements.
+
+To remove duplicate elements from the arraylist, we have
+add all elements from arraylist to set
+empty the arraylist using clear() method
+add all elements from set to arraylist
+
+Here, we have used the LinkedHashSet to create a set. 
+It is because it removes the duplicate elements and maintains insertion order.
+-----------------------------------------------------------------------------------------------------------------------
+Example 2: Remove duplicate elements from ArrayList using Stream
+
+In this example, we have created an arraylist named numbers.
+ The arraylist contains duplicate elements.
+
+Here, we have used the Stream class to remove duplicate elements from the arraylist.
+numbers.stream() - create a stream from the arraylist
+stream.distinct() - removes duplicate elements
+stream.collect(Collectors.toList()) - returns a list from the stream
+Here, we have used typecasting to convert the returned list into an arraylist.
