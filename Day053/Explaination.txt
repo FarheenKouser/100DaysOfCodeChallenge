@@ -1,0 +1,29 @@
+                                    ****EXPLAINATION****
+                         Java Program to Detect loop in a LinkedList
+
+In this example, we will learn to detect whether there is a loop in LinkedList in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java LinkedList-The LinkedList class of the Java collections framework provides the functionality 
+                                of the linked list data structure (doubly linkedlist).
+
+Java Methods-A method is a block of code that performs a specific task.
+                           In Java, there are two types of methods:
+                              User-defined Methods: We can create our own method based on
+                                                                           our requirements.
+                             Standard Library Methods: These are built-in methods in Java that 
+                                                                                   are available to use.
+
+Example: Detect Loop in a LinkedList
+
+In this example, we have implemented a LinkedList in Java.
+ We have used Floyd's cycle finding algorithm to check if there is a loop in LinkedList.
+
+Notice the code inside the checkLoop() method.
+ Here, we have two variables named first and second that traverse the nodes in LinkedList.
+
+first - traverse with 2 nodes at single iteration
+second - traverse with 1 node at single iteration
+Two nodes are traversing at different speeds. 
+Hence, they will meet if there is a loop in LinkedList.
