@@ -1,0 +1,30 @@
+                                            ****EXPLAINATION****
+                            Java Program to Calculate union of two sets
+
+In this example, we will learn to calculate the union of two sets in Java.
+
+To understand this example, We should have the knowledge of the following Java programming topics:
+
+Java Set Interface-The Set interface of the Java Collections framework provides the features 
+                                    of the mathematical set in Java. 
+                                    It extends the Collection interface.
+                                    Unlike the List interface, sets cannot contain duplicate elements.
+
+Java HashSet Class-The HashSet class of the Java Collections framework provides 
+                                      the functionalities of the hash table data structure.
+                                      It implements the Set interface.
+
+Example 1: Calculate the union of two sets using addAll()
+
+In this example, we have created two sets named evenNumbers and numbers.
+ We have implemented the set using the HashSet class. 
+Notice the line,
+numbers.addAll(evenNumbers);
+Here, we have used the addAll() method to get the union of two sets.
+----------------------------------------------------------------------------------------------------------------------------------
+Example 2: Get union of two sets using Guava Library
+
+In this example, we have used the Guava library to get the union of two sets.
+In order to run this program, we need to implement Guava Library by adding it in your dependency.
+
+Here, we have used the union() method of the Sets class present in the Guava library.
