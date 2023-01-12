@@ -1,0 +1,24 @@
+                                     ****EXPLAINATION****
+                  Java Program to Calculate the intersection of two sets
+
+In this example, we will learn to calculate the intersection of two sets in Java.
+
+To understand this example,we should have the knowledge of the following Java programming topics:
+
+Java Set Interface
+Java HashSet Class
+
+Example 1: Calculate the intersection of two sets
+
+In this example, we have created two sets named primeNumbers and evenNumbers. 
+We have implemented the set using the HashSet class.
+ Notice the line,
+evenNumbers.retainAll(primeNumbers);
+Here, we have used the retainAll() method to get the intersection of two sets.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Get union of two sets using Guava Library
+
+In this example, we have used the Guava library to get the intersection of two sets. 
+In order to run this program, you need to implement Guava Library by adding it to your dependency.
+
+Here, we have used the intersection() method of the Sets class present in the Guava library.
