@@ -1,0 +1,31 @@
+                                             ****EXPLAINATION****
+                            Java Program to Check if a set is the subset of another set
+
+In this example, we will learn to check if a set is the subset of another set in Java.
+
+To understand this example, We have the knowledge of the following Java programming topics:
+
+Java Set Interface
+Java HashSet Class
+Java TreeSet
+
+The TreeSet class of the Java collections framework provides the functionality of a tree data structure.
+
+Example 1: Check subset of a Set using HashSet class
+
+In this example, we have created two sets named numbers and primeNumbers.
+ We have implemented the set using the HashSet class.
+ Notice the line,
+numbers.containsAll(primeNumbers);
+Here, we have used the containsAll() method to check if primeNumbers is the subset of numbers.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Check subset of a Set using TreeSet class
+
+Here, we have implemented the set using the TreeSet class.
+In order to create a tree set, we must import the java.util.TreeSet package first.
+Once we import the package, here is how we can create a TreeSet in Java.
+TreeSet<Integer> numbers = new TreeSet<>();
+Here, we have created a TreeSet without any arguments.
+ In this case, the elements in TreeSet are sorted naturally (ascending order).
+
+However, we can customize the sorting of elements by using the Comparator interface.
