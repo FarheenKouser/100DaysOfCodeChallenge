@@ -1,0 +1,32 @@
+                                ****EXPLAINATION****
+                       Java Program to Sort map by keys
+
+In this example, we will learn to sort the map by keys in Java.
+
+To understand this example, We should have the knowledge of the following Java programming topics:
+
+Java Map Interface-The Map interface of the Java collections framework provides the functionality
+                                      of the map data structure.
+                        Working of Map-
+                                     In Java, elements of Map are stored in key/value pairs.
+                                     Keys are unique values associated with individual Values.
+                              A map cannot contain duplicate keys. 
+                              And, each key is associated with a single value.
+
+Java HashMap-The HashMap class of the Java collections framework provides the functionality
+                             of the hash table data structure.
+                              It stores elements in key/value pairs.
+                             Here, keys are unique identifiers used to associate each value on a map.
+                             The HashMap class implements the Map interface.
+
+Java TreeMap-The TreeMap class of the Java collections framework provides the tree 
+                            data structure implementation.
+                            It implements the NavigableMap interface.
+
+Example: Sort a map by keys using TreeMap
+
+In this example, we have created a map named languages using HashMap. 
+Here, the map is not sorted.
+
+To sort the map, we created a treemap from the map.
+ Now, the map is sorted by its keys.
