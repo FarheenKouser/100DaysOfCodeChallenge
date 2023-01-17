@@ -1,0 +1,23 @@
+                                                            ****EXPLAINATION****
+                                            Java Program to Implement Binary Tree Data Structure
+
+A binary tree is a tree data structure in which each parent node can have at most two children.   
+Each node of a binary tree consists of three items:
+1. data item
+2. address of left child
+3. address of right child
+
+In this example, we will learn to implement the binary tree data structure in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Class and Objects
+Java Methods
+
+Example: Java Program to Implement Binary Tree
+
+Binary tree implementation in Java with 4 nodes
+Binary Tree Output
+In this example, we have implemented the binary tree in Java.  
+Unlike other data structures, Java doesn't provide a built-in class for trees.
+
+Here, we have created our own class of BinaryTree. 
