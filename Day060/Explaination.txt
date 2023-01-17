@@ -1,0 +1,20 @@
+                                             ****EXPLAINATION****
+                   Java Program to Perform the preorder tree traversal
+
+In this example, we will learn to perform the preorder tree traversal in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Class and Objects
+Java Methods
+
+Example: Java Program to perform preorder tree traversal
+
+In this example, we have implemented the tree data structure in Java.      
+Here, we are performing the preorder traversal of the tree.
+
+Traversing a tree means visiting every node in the tree. 
+You might, for instance, want to add all the values in the tree or find the largest one. 
+For all these operations, you will need to visit each node of the tree.
+
+Linear data structures like arrays, stacks, queues, and linked list have only one way to read the data. 
+But a hierarchical data structure like a tree can be traversed in different ways.
