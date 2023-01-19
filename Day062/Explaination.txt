@@ -1,0 +1,30 @@
+                                                   ****EXPLAINATION*****
+                                 Java Program to Perform the inorder tree traversal
+
+In this example, we will learn to perform the inorder tree traversal in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java Class and Objects
+Java Methods
+
+Example: Java Program to perform inorder tree traversal
+
+Traversing a tree means visiting every node in the tree.
+ You might, for instance, want to add all the values in the tree or find the largest one.
+ For all these operations, you will need to visit each node of the tree.
+
+Linear data structures like arrays, stacks, queues, and linked list have only one way to read the data. 
+But a hierarchical data structure like a tree can be traversed in different ways.
+
+In this example, we have implemented the tree data structure in Java.     
+Here, we are performing the inorder traversal of the tree.
+
+Inorder traversal
+1.First, visit all the nodes in the left subtree
+2.Then the root node
+3.Visit all the nodes in the right subtree
+
+inorder(root->left)
+display(root->data)
+inorder(root->right)
