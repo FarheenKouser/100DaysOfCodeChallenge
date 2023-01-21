@@ -1,0 +1,24 @@
+                                     ****EXPLAINATION****
+             Java Program to Implement the graph data structure
+
+In this example, we will implement the graph data structure in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java Class and Objects
+Java Methods
+
+Example: Implement Graph Data Structure
+
+In the above example, we have implemented the graph data structure in Java. 
+
+A graph data structure is a collection of nodes that have data and are connected to other nodes.
+
+Let's try to understand this through an example. 
+On facebook, everything is a node. 
+That includes User, Photo, Album, Event, Group, Page, Comment, Story, Video, Link, Note...
+anything that has data is a node.
+
+Every relationship is an edge from one node to another. 
+Whether you post a photo, join a group, like a page, etc., a new edge is created for that relationship.
+
