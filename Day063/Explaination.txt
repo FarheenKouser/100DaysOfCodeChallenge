@@ -1,0 +1,24 @@
+                                   ****EXPLAINATION**** 
+         Java Program to Count number of leaf nodes in a tree
+
+In this example, we will learn to count the number of leaf nodes in a tree using Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java Class and Objects
+Java Methods
+
+A node is a leaf node if both left and right child nodes of it are NULL. 
+Here is an algorithm to get the leaf node count.
+
+getLeafCount(node)
+1) If node is NULL then return 0.
+2) Else If left and right child nodes are NULL return 1.
+3) Else recursively calculate leaf count of the tree using below formula.
+    Leaf count of a tree = Leaf count of left subtree + 
+                                 Leaf count of right subtree
+
+Example: Java Program to count the number of leaf nodes in a tree
+
+In the above example, we have implemented the tree data structure in Java. 
+Here, we are using recursion to count the number of leaf nodes in the tree.
