@@ -1,0 +1,64 @@
+                          ****JAVA PROGRAM TO REMOVE ELEMENTS FROM THE LINKEDLIST****
+
+QUESTION-
+
+Example 1: Remove element using remove()
+
+CODE-
+import java.util.LinkedList;
+
+class Main {
+  public static void main(String[] args) {
+    LinkedList<String> languages = new LinkedList<>();
+
+    // add elements in LinkedList
+    languages.add("Java");
+    languages.add("Python");
+    languages.add("JavaScript");
+    languages.add("Kotlin");
+    System.out.println("LinkedList: " + languages);
+
+    // remove elements from index 1
+    String str = languages.remove(3);
+    System.out.println("Removed Element: " + str);
+
+    System.out.println("Updated LinkedList: " + languages);
+  }
+}
+
+OUTPUT-
+LinkedList: [Java, Python, JavaScript, Kotlin]
+Removed Element: Kotlin
+Updated LinkedList: [Java, Python, JavaScript]
+------------------------------------------------------------------------------------------------------------------------
+Example 2 Using listIterator() Method
+
+CODE-
+We can also the listsIterator() to remove elements from the linkedlist.
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+class Main {
+    public static void main(String[] args) {
+        ArrayList<String> animals= new ArrayList<>();
+
+        // add elements
+        animals.add("Dog");
+        animals.add("Cat");
+        animals.add("Horse");
+        System.out.println("LinkedList: " + animals);
+
+        // creating an object of ListIterator
+        ListIterator<String> listIterate = animals.listIterator();
+        listIterate.next();
+
+        // चemove element returned by next()
+        listIterate.remove();
+        System.out.println("New LinkedList: " + animals);
+    }
+}
+
+OUTPUT-
+LinkedList: [Dog, Cat, Horse]
+New LinkedList: [Cat, Horse]

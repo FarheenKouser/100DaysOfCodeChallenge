@@ -1,0 +1,33 @@
+                                              ****EXPLAINATION****
+                     Java Program to Remove elements from the LinkedList.
+
+In this example, we will learn to remove elements from the Java LinkedList using different methods.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java LinkedList-The LinkedList class of the Java collections framework provides 
+                                 the functionality of the linked list data structure (doubly linkedlist).
+                               A single node of doubly linkedlist that has 3 fields Prev, Data, and Next.
+          Java Doubly LinkedList
+                  Each element in a linked list is known as a node. It consists of 3 fields:
+                          Prev - stores an address of the previous element in the list. It is null for the first element
+                         Next - stores an address of the next element in the list. It is null for the last element
+                         Data - stores the actual data
+        
+Java ListIterator Interface-The ListIterator interface of the Java collections framework provides 
+                                                    the functionality to access elements of a list.
+                                                It is bidirectional. 
+                                               This means it allows us to iterate elements of a list in both the direction.
+                          It extends the Iterator interface.
+
+Example 1: Remove element using remove()
+
+In the above example, we have created a linkedlist named languages. 
+Here, the remove() method to remove an element from the linkedlist.
+The method takes the index number of the element as its parameter.
+------------------------------------------------------------------------------------------------------------------------------------
+Example 2 Using listIterator() Method
+
+We can also the listsIterator() to remove elements from the linkedlist.
+In this example, the listIterator() method returns an iterator to access each element of the linkedlist.
+Here, the next() method returns the next element in the linkedlist.
