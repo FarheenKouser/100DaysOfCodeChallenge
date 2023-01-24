@@ -1,0 +1,32 @@
+                                         ****EXPLAINATION****
+                       Java Program to Access elements from a LinkedList.
+
+In this example, we will learn to access elements from a LinkedList in Java using various methods.
+
+Example 1: Access elements from a linkedlist
+
+In this example, we have used the get() method with parameter 1. 
+Here, the method returns the element at index 1.
+--------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Using iterator() method
+
+We can also use the iterator() method to iterate over the elements of a linkedlist. 
+We must import java.util.Iterator package to use this method.
+
+Here,
+hasNext() - returns true if there is a next element
+next() - returns the next element
+---------------------------------------------------------------------------------------------------------------------------------------
+Example 3: Using listIterator() method
+
+We can also use the listIterator() method to iterate over the elements of a LinkedList. 
+To use this method, we must import java.util.ListIterator package.
+
+Here,
+hasNext() - returns true if there is a next element
+next() - returns the next element
+hasPrevious() - returns true if there exist previous elements
+previous() - returns the previous element
+
+Note: The listIterator() method is more preferred than iterator(). 
+            This is because it allows you to iterate backward as well.
