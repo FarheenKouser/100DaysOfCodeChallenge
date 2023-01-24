@@ -1,0 +1,21 @@
+                                                        ****EXPLAINATION****
+                                              Java Program to Add elements to a LinkedList
+
+In this example, we will learn to insert elements to the Java LinkedList using various methods.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java LinkedList
+Java ListIterator Interface
+
+Example 1: Add Elements Using add()
+
+Here, the add() method inserts an element at the end of a linkedlist. 
+However, we can also insert elements at the specified position using the add() method.
+-------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Add element at the specified position
+
+In the example, notice the line,
+languages.add(0, "Java");
+
+Here, 0 is an optional parameter that specifies the index number where the new element is to be added.
