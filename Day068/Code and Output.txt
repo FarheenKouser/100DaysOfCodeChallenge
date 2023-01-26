@@ -1,0 +1,167 @@
+                ****JAVA PROGRAM FOR THE IMPLEMENTATION OF QUEUE USING DOUBLE LINKEDLIST****
+
+
+CODE-
+import java.util.*;
+public class queuedoublylinkedlist {
+static class Node
+    {
+int data;
+Node prev, next;
+        static Node getnode(int data)
+        {
+            Node newNode = new Node();
+newNode.data = data;
+newNode.prev = newNode.next = null;
+            return newNode;
+}
+    };
+    static class Deque {
+        Node front;
+Node rear;
+        int Size;
+Deque()
+        {
+front = rear = null;
+Size = 0;
+}
+boolean isEmpty() { return (front == null); }
+int size() { return Size; }
+void insertFront(int data)
+        {
+            Node newNode = Node.getnode(data);
+              if (newNode == null)
+                System.out.print("OverFlow\n");
+            else {
+if (front == null)
+rear = front = newNode;
+                else {
+                    newNode.next = front;
+front.prev = newNode;
+front = newNode;
+}
+Size++;
+}
+        }
+void insertRear(int data)
+        {
+            Node newNode = Node.getnode(data);
+            if (newNode == null)
+                System.out.print("OverFlow\n");
+            else {
+if (rear == null)
+front = rear = newNode;
+                else {
+                    newNode.prev = rear;
+rear.next = newNode;
+rear = newNode;
+}
+Size++;
+}
+        }
+void deleteFront()
+        {
+if (isEmpty())
+                System.out.print("UnderFlow\n");
+            else {
+                Node temp = front;
+front = front.next;
+                if (front == null)
+rear = null;
+                else
+front.prev = null;
+Size--;
+}
+        }
+void deleteRear()
+        {
+if (isEmpty())
+                System.out.print("UnderFlow\n");
+            else {
+                Node temp = rear;
+rear = rear.prev;
+                if (rear == null)
+front = null;
+                else
+rear.next = null;
+Size--;
+}
+        }
+int getFront()
+        {
+if (isEmpty())
+return -1;
+            return front.data;
+}
+int getRear()
+        {
+if (isEmpty())
+return -1;
+            return rear.data;
+}
+void display()
+        {
+rear = null;
+            while (front != null) {
+                Node temp = front;
+System.out.print(temp.data+" ");
+front = front.next;
+}
+        }
+    }
+public static void main(String[] args)
+    {
+        Deque dq = new Deque();
+System.out.print(
+"Insert element '5' at rear end\n");
+dq.insertRear(5);
+System.out.print(
+"Insert element '10' at rear end\n");
+dq.insertRear(10);
+System.out.print("Rear end element: " + dq.getRear()
+                + "\n");
+dq.display();
+System.out.println();
+dq.deleteRear();
+System.out.print(
+"After deleting rear element new rear"
++ " is: " + dq.getRear() + "\n");
+System.out.print(
+"Inserting element '15' at front end \n");
+dq.insertFront(15);
+System.out.print(
+"Front end element: " + dq.getFront() + "\n");
+System.out.print("Number of elements in Deque: "
++ dq.size() + "\n");
+dq.deleteFront();
+System.out.print("After deleting front element new "
++ "front is: " + dq.getFront()
+                + "\n");
+System.out.println("Entre the value : ");
+Scanner sc=new Scanner(System.in);
+        int x=sc.nextInt();
+dq.insertRear(x);
+        int y=sc.nextInt();
+dq.insertRear(y);
+        int z=sc.nextInt();
+dq.insertFront(z);
+dq.display();
+}
+}
+
+OUTPUT-
+Insert element '5' at rear end
+Insert element '10' at rear end
+Rear end element: 10
+5 10 
+UnderFlow
+After deleting rear element new rear is: -1
+Inserting element '15' at front end 
+Front end element: 15
+Number of elements in Deque: 3
+After deleting front element new front is: -1
+Entre the value : 
+3
+3
+2
+2 3 3 

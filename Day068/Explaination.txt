@@ -1,0 +1,40 @@
+                                                      ****EXPLAINATION****    
+                  Java program for the implementation of queue using double LinkedList
+
+Insertion at Front end
+1 Allocate space for a newnode of doubly linked list 
+2 If newnode is equal to null then 
+3 print overflow 
+4 otherwise 
+5 if the front is null then 
+6 assign newnode to front and rear 
+7 otherwise 
+8 assign address of newnode to the front
+9  newnode is assigned Address of pervious of front 
+10 newnode is equal to front
+
+
+Insertion at Rear end
+1 Allocate space for a newnode of doubly linked list 
+2 If newnode is equal to null then 
+3 print overflow 
+4 otherwise 
+5 if the rear is null then 
+6 assign newnode to front and rear 
+7 otherwise 
+8 assign address of newnode to the rear
+9  newnode is assigned Address of rear next
+10 newnode is equal to rear
+
+
+Deletion from front end
+1 If front is null
+2 prin underflow 
+3 otherwise
+4 initialize front as temp
+5 move front to front next 
+6 if front is null
+7 rear is null 
+8 otherwise 
+9 front prev as null 
+10 free the space
