@@ -1,0 +1,56 @@
+                                                       ****EXPLAINATION****
+                               Implementation of Queue Using Circular Double LinkedList
+
+Enqueue
+
+1 allocate space for a ptr of stack linked list .
+
+2 If ptr is null then
+
+3 data of pointer is x
+
+4 front  is assigned to  pointer next
+
+5 pointer assigned to is pointer pervious
+
+6 front and rear is equal to pointer
+
+7 otherwise
+
+8  data of pointer is x
+
+9 rear  is assigned to  pointer next
+
+10 rear next  assigned to is pointer
+
+11 pointer pervious is equal to rear
+
+12 pointer is assigned to rear and the front pervious is assigned to pointer.
+
+ 
+
+Dequeue
+
+1 if front is null
+
+2 print underflow
+
+3 else if
+
+4  print the data in the front
+
+5 rear is equal to front
+
+6 otherwise
+
+7 initialize  temp to front
+
+8 rear next to front next
+
+9 Front to the front next
+
+10 rear is assigned to front pervious
+
+11 print temp data
+
+12  free the space .

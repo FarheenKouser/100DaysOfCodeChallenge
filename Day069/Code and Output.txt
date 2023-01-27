@@ -1,0 +1,125 @@
+                         ****JAVA PROGRAMME FOR THE IMPLEMENTATION OF QUEUE USING CIRCULAR DOUBLE LINKEDLIST****
+
+CODE-
+import java.util.*;
+class QD
+{
+    class node
+    {
+        int data;
+        node next;
+        node prev;
+    }
+    static node front=null;
+    static  node rear=null;
+     void enqueue(int val)
+    {
+        node ptr=new node();
+        if(front==null)
+        {
+            ptr.data=val;
+            ptr.next=front;
+            ptr.prev=ptr;
+            front=rear=ptr;
+        }
+        else
+        {
+            ptr.data=val;
+            ptr.next=front;
+            rear.next=ptr;
+            ptr.prev=rear;
+            rear=ptr;
+            front.prev=ptr;
+        }
+    }
+    void deque()
+    {
+        if(front==null)
+        {
+            System.out.println("Queue underflow");
+        }
+        else if(front==rear)
+        {
+            System.out.println("front.data");
+            front=rear;
+        }
+        else
+        {
+            node temp=front;
+            rear.next=front.next;
+            front=front.next;
+            front.prev=rear;
+            System.out.println("Delete element is "+ temp.data);
+        }
+    }
+    void display()
+    {
+        if(front==null)
+        {
+            System.out.println(" Queue is empty");
+        }
+        else
+        {
+            node temp=front;
+            while(temp.next!=front)
+            {
+                System.out.print(temp.data+" ");
+                temp=temp.next;
+            }
+            System.out.print(temp.data);
+            System.out.println();
+        }
+    }
+}
+public class dqueuecircularlinkedlist {
+
+    public static void main(String[] args)
+    {
+       QD t=new QD();
+       t.enqueue(1);
+       t.enqueue(2);
+       t.enqueue(3);
+       t.enqueue(4);
+       t.enqueue(5);
+       t.enqueue(6);
+       t.display();
+       System.out.println("1. Enqueue");
+        System.out.println("2. dqueue");
+        System.out.println("3. display");
+        System.out.println("4.all operation");
+        Scanner sc=new Scanner(System.in);
+        int c=sc.nextInt();
+     switch (c){
+         case 1:
+                  System.out.println("Entre the element : ");
+                  int x=sc.nextInt();
+                  t.enqueue(x);
+                  System.out.println("Element insert in the queue ");
+                  break;
+         case 2:
+                 t.deque();
+                 break;
+         case 3:
+             t.display();
+             break;
+         case 4:
+             System.out.println("Entre the element : ");
+             int y=sc.nextInt();
+             t.enqueue(y);
+             t.deque();
+             t.display();
+             break;
+         default:
+             System.out.println("wrong choise");
+     }
+    }
+}
+
+OUTPUT-
+1 2 3 4 5 6
+1. Enqueue
+2. dqueue
+3. display
+4.all operation
+2
+Delete element is 1
