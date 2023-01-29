@@ -1,0 +1,18 @@
+                                              ****EXPLAINATION****
+                     Java Programme to Implement Stack using Circular LinkedList
+
+1 create data and a pointer
+
+2 define insert method which contains head and tail as null
+
+3 If head and tail is null then assign the head value  to the ptr then ptr next value is assigned
+     to head
+
+4 If ptr next is head then head is assigned to ptr  tail next is ptr and the x is given to data 
+   call the delete function
+
+5 if head is equal to the tail then assign null to head . Assign null to tail.
+
+6 checking if the stack is empty or full if tail and head is null the stack is empty 
+  then head is assigned to ptr and ptr next is assigned to ptr and ptr next is assigned to head ,
+   tail next is assigned by head.

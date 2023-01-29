@@ -1,0 +1,114 @@
+                               ****Java Programme to Implement Stack using Circular LinkedList****
+
+Example-Implement stack using circular linkedlist
+
+CODE-
+import java.util.*;
+class stack1
+{
+    class node
+    {
+        int data;
+        node next;
+    }
+    node top;
+    node first;
+    void  stack1()
+    {
+        top=null;
+        first=null;
+    }
+    void push(int val)
+    {
+        node ptr=new node();
+        if(top==null)
+        {
+           ptr.data=val;
+           top=ptr;
+           first=top;
+           ptr.next=top;
+        }
+        else
+        {
+            ptr.data=val;
+            ptr.next=top;
+            top=ptr;
+            first.next=top;
+        }
+    }
+    void pop()
+    {
+        if(top==null)
+        {
+            System.out.println("The stack is underflow");
+        }
+        else
+        {
+            node ptr=top;
+            System.out.println("The element deleted is "+ ptr.data);
+            top=top.next;
+            first.next=top;
+        }
+    }
+    void display()
+    {
+        node temp=top;
+        while(temp!=first)
+        {
+            System.out.print(temp.data+" ");
+            temp=temp.next;
+        }
+        System.out.print(temp.data+" ");
+        System.out.println();
+    }
+}
+public class stackcircular {
+ public static void main(String[] args)
+ {
+     stack1 t=new stack1();
+     t.push(1);
+     t.push(2);
+     t.push(3);
+     t.push(4);
+     t.push(5);
+     t.display();
+     System.out.println("1. push");
+     System.out.println("2. pop");
+     System.out.println("3. display");
+     System.out.println("4.all operation");
+     Scanner sc=new Scanner(System.in);
+     int c=sc.nextInt();
+     switch (c){
+         case 1:
+             System.out.println("Entre the element : ");
+             int x=sc.nextInt();
+             t.push(x);
+             System.out.println("Element inserted in the stack ");
+             break;
+         case 2:
+             t.pop();
+             break;
+         case 3:
+             t.display();
+             break;
+         case 4:
+             System.out.println("Entre the element : ");
+             int y=sc.nextInt();
+             t.push(y);
+             t.pop();
+             t.display();
+             break;
+         default:
+             System.out.println("wrong choise");
+     }
+ }
+}
+
+OUTPUT-
+5 4 3 2 1 
+1. push
+2. pop
+3. display
+4.all operation
+2
+The element deleted is 5
