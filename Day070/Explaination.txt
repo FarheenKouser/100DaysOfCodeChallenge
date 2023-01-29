@@ -1,0 +1,28 @@
+                                                        ****EXPLAINATIOM****
+                                    Java Programme to implement Stack using LinkedList
+
+Push
+1.	Allocate space for a for pointer of the stack linked list.
+2.	 check is the pointer is null 
+3.	 then print the overflow means full
+4.	 otherwise
+5.	 assign x to the data of the node
+6.	 traverse the temp to the top 
+7.	 assign temp value to top
+
+  POP
+     1. if front pointer is equal to null
+2. print underflow means empty 
+      3. otherwise
+      4. the top next pointer is assigned to top pointer 
+      5. free the space 
+
+PRINT 
+      1. If top is equal to null 
+      2. print underflow 
+      3. otherwise 
+      4. assign the top address to temp
+      5. till temp is not equal to null 
+      6. print the data 
+      7. till temp is not equal to null traverse the node .
+
