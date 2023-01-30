@@ -1,0 +1,18 @@
+                                         ****EXPLAINATION****
+                                 Java Programme for Linear Search
+
+1 Function declaration with parameters where A is the array and key is the item to be searched.
+
+2 Variable initialization to traverse the array for searching the item.
+
+3 Loop will continue if both the conditions are true i.e, till the value of
+    i is less than or equals to n(where n is the length of array) and array element at position i 
+    is not equal to key.
+
+4 Value of I will be incremented.
+
+5 If the value of i is less than or equal to n then it will enter the loop.
+
+6  If the above condition is true it will return true.
+
+7  If the above condition is false then it will return false.
