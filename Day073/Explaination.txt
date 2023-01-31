@@ -1,0 +1,38 @@
+                                  ****EXPLAINATION****
+          Java Program to Implement Binary Search Algorithm
+
+In this example, we will learn to implement binary search algorithm in Java.
+
+To understand this example,we should have the knowledge of the following Java programming topics:
+
+Java while and do...while Loop
+Java if...else Statement
+Java Arrays
+
+Example: Java Program to Implement Binary Search Algorithm
+
+Here, we have used the Java Scanner Class to take input from the user. 
+Based on the input from user, we used the binary search to check if the element is present in the array.
+
+We can also use the recursive call to perform the same task.
+
+  int binarySearch(int array[], int element, int low, int high) {
+
+    if (high >= low) {
+      int mid = low + (high - low) / 2;
+
+      // check if mid element is searched element
+      if (array[mid] == element)
+        return mid;
+
+      // Search the left half of mid
+      if (array[mid] > element)
+        return binarySearch(array, element, low, mid - 1);
+
+      // Search the right half of mid
+      return binarySearch(array, element, mid + 1, high);
+    }
+
+    return -1;
+  }
+Here, the method binarySearch() is calling itself until the element is found or, the if condition fails.
