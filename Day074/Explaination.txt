@@ -1,0 +1,31 @@
+                                     ****EXPLAINATION****
+                     Java Program to Implement Bubble Sort algorithm
+
+In this example, we will learn to execute bubble sort algorithm in Java.
+
+Bubble sort is a sorting algorithm that compares two adjacent elements and 
+swaps them until they are in the intended order.
+
+Just like the movement of air bubbles in the water that rise up to the surface, 
+each element of the array move to the end in each iteration. 
+Therefore, it is called a bubble sort.
+
+Example: Java Program to Implement Bubble Sort Algorithm
+
+Output 1
+Choose Sorting Order:
+1 for Ascending 
+2 for Descending
+1
+Sorted Array:
+[-9, -2, 0, 11, 45]
+In this case, we have entered 1 as input. Hence, the program sort the array in ascending order.
+
+Output 2
+Choose Sorting Order:
+1 for Ascending
+2 for Descending
+2
+Sorted Array:
+[45, 11, 0, -2, -9]
+In this case, we have entered 2 as input. Hence, the program sort the array in descending order.
