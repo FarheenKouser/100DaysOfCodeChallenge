@@ -1,0 +1,24 @@
+                                             ****EXPLAINATION****
+                              Java Program to Implement Quick Sort Algorithm
+
+In this example, we will implement the quicksort algorithm in Java.
+
+Quicksort in Java
+Quicksort algorithm is based on the divide and conquer approach where an array 
+is divided into subarrays by selecting a pivot element.
+
+While dividing the array, the pivot element should be positioned in such a way 
+that elements less than pivot are kept on the left side and 
+elements greater than pivot are on the right side.
+
+The same process is continued for both left and right subarrays. 
+Finally, sorted elements are combined to form a sorted array.
+
+Example: Java Program to Implement Quick Sort Algorithm
+
+Here, the elements of the array are sorted in ascending order. 
+If we want to sort the elements in descending order, then inside the for loop, 
+we can change the code as:
+
+// the less than sign is changed to greater than
+if (array[j] >= pivot) {
