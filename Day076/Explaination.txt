@@ -1,0 +1,18 @@
+                              ****EXPLAINATION****              
+              Java Program to Implement Merge Sort Algorithm
+
+Merge Sort in Java
+The merge sort algorithm is based on the principle of divide and conquer algorithm 
+where a problem is divided into multiple sub-problems. 
+Each sub-problem is solved individually and finally, 
+sub-problems are combined to form the final solutions.
+
+Example: Java Program to Implement Merge Sort Algorithm
+
+Here, the elements of the array are sorted in ascending order. 
+If we want to sort the elements in descending order, then inside the first 
+while loop of the merge() method, 
+
+we can change the code as:
+// the less than sign is changed to greater than
+if (L[i] >= M[j]) {
