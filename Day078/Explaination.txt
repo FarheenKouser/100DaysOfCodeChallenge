@@ -1,0 +1,25 @@
+                                            ****EXPLAINATION****
+                       Java Program To Implement Radix Sort Algorithm
+
+RADIX SORT-
+Radix sort is a sorting algorithm that sorts the elements by first grouping 
+the individual digits of the same place value. 
+Then, sort the elements according to their increasing/decreasing order.
+
+Suppose, we have an array of 8 elements. 
+First, we will sort elements based on the value of the unit place. 
+Then, we will sort elements based on the value of the tenth place. 
+This process goes on until the last significant place.
+
+Working of Radix Sort-
+1.Find the largest element in the array, i.e. max. Let X be the number of digits in max.
+   X is calculated because we have to go through all the significant places of all elements.
+
+2.Now, go through each significant place one by one.
+   Use any stable sorting technique to sort the digits at each significant place.
+   We have used counting sort for this.
+    Sort the elements based on the unit place digits
+
+3.Now, sort the elements based on digits at tens place.
+
+4.Finally, sort the elements based on the digits at hundreds place.
