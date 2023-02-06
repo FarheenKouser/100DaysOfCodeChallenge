@@ -1,0 +1,19 @@
+                                                  ****EXPLAINATION****
+                         Java Program to implement Heap Sort Algorithm
+
+HEAP SORT-
+Heap Sort is a popular and efficient sorting algorithm in computer programming. 
+Learning how to write the heap sort algorithm requires knowledge of 
+two types of data structures - 
+arrays and trees.
+
+Heap sort works by visualizing the elements of the array as a special kind of 
+complete binary tree called a heap.
+
+Working of Heap Sort
+1.Since the tree satisfies Max-Heap property, then the largest item is stored at the root node.
+2.Swap: Remove the root element and put at the end of the array (nth position) 
+   Put the last item of the tree (heap) at the vacant place.
+3.Remove: Reduce the size of the heap by 1.
+4.Heapify: Heapify the root element again so that we have the highest element at root.
+5.The process is repeated until all the items of the list are sorted.
