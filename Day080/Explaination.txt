@@ -1,0 +1,26 @@
+                                                  *****EXPLAINATION****
+                                  Java program to implement Bucket Sort Algorithm
+
+BUCKET SORT-
+Bucket Sort is a sorting algorithm that divides the unsorted array elements into several 
+groups called buckets. Each bucket is then sorted by using any of the suitable sorting 
+algorithms or recursively applying the same bucket algorithm.
+
+Finally, the sorted buckets are combined to form a final sorted array.
+
+Working of Bucket Sort-
+1.Suppose, the input array is of N size
+    Create an array of size 10. 
+     Each slot of this array is used as a bucket for storing elements.
+
+2.Insert elements into the buckets from the array. 
+    The elements are inserted according to the range of the bucket.
+
+3.The elements of each bucket are sorted using any of the stable sorting algorithms. 
+    Here, we have used quicksort (inbuilt function).
+
+4.The elements from each bucket are gathered.
+
+It is done by iterating through the bucket and inserting an individual element into 
+the original array in each cycle. 
+The element from the bucket is erased once it is copied into the original array.
