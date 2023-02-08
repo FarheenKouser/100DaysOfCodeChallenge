@@ -1,0 +1,22 @@
+                                         ****EXPLAINATION****
+                            Java Program to Get Current Working Directory
+
+In this program, we'll learn to get the current working directory in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+
+Java File Class
+Java Strings
+
+Example 1: Get current working directory
+
+In the above program, we used System's getProperty() method to get the user.dir property of the program. 
+This returns the directory which contains our Java project.
+--------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Get the current working directory using Path
+
+In the above program, we used Path's get() method to get the current path of our program. 
+This returns a relative path to the working directory.
+
+We then change the relative path to an absolute path using toAbsolutePath(). 
+Since it returns a Path object, we need to change it to a string using toString() method.
