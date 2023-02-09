@@ -1,0 +1,13 @@
+                              ****EXPLAINATION****
+                     Java Program to Write Content to the File
+
+Java FileWriter Class-
+
+The FileWriter class of the java.io package can be used to write data (in characters) to files.
+It extends the OutputStreamWriter class.
+
+Example 1: Java Program to Write Content to the File
+
+In Java, we can use the FileWriter class to write data to a file. 
+In this example, we have used the FileWriter lass to write the string data to the file Javafile.java.
+When you run the program, the file JavaFile.java will includes the data present in the string program.
