@@ -1,0 +1,17 @@
+                                  ****EXPLAINATION****
+                                Java Program to Create File 
+
+JAVA FILE CLASS-
+The File class of the java.io package is used to perform various operations on files and directories.
+There is another package named java.nio that can be used to work with files.
+
+Example 1: Java Program to Create a File
+
+In this example, we have created a file object named file. The file object is linked with the specified path.
+// javaFile.java is equivalent to
+// currentdirectory/JavaFile.java
+File file = new File("JavaFile.java");
+We then use the createNewFile() method of the File class to create new file to the specified path.
+
+Note: If the file JavaFile.java is not already present, then only the new file is created. 
+Otherwise the program returns The file already exists.
