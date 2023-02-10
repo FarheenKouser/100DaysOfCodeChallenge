@@ -1,0 +1,19 @@
+                                   ****EXPLAINATION****
+                      Java Program to Delete File in Java
+
+In this example, we will learn to delete file in using the File and Files class in Java.
+
+Example 1: Java Program to Delete a file using delete()
+
+In the above example, we have used the delete() method of the File class 
+to delete the file named JavaFile.java.
+
+Here, if the file is present, then the message JavaFile.java is successfully deleted is shown. 
+Otherwise, File doesn't exit is shown.
+----------------------------------------------------------------------------------------------------------------------
+Example 2: Java Program to Delete a file using deleteIfExists()
+
+Here, we have used the deleteIfExists() method of java.nio.file.Files class. 
+The method deletes the file if it is present in the specified path.
+
+Note: java.nio.file is a new package introduced to deal with files in Java.

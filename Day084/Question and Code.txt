@@ -1,0 +1,54 @@
+                                       ****JAVA PROGRAM TO DELETE FILE IN JAVA****
+
+QUESTION-
+
+Example 1: Java Program to Delete a file using delete()
+
+CODE-
+import java.io.File;
+
+class Main {
+  public static void main(String[] args) {
+
+    // creates a file object
+    File file = new File("JavaFile.java");
+
+    // deletes the file
+    boolean value = file.delete();
+    if(value) {
+      System.out.println("JavaFile.java is successfully deleted.");
+    }
+    else {
+      System.out.println("File doesn't exit");
+    }
+  }
+}
+--------------------------------------------------------------------------------------------------------------------------
+Example 2: Java Program to Delete a file using deleteIfExists()
+
+CODE-
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+class Main {
+  public static void main(String[] args) {
+
+    try {
+      // creates a file object
+      Path path = Paths.get("JavaFile.java");
+
+      // deletes the file
+      boolean value = Files.deleteIfExists(path);
+      if(value) {
+        System.out.println("JavaFile.java is successfully deleted.");
+      }
+      else {
+        System.out.println("File doesn't exit");
+      }
+    } catch (Exception e) {
+      e.getStackTrace();
+    }
+
+  }
+}
