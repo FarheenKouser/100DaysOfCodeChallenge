@@ -1,0 +1,24 @@
+                                        ****EXPLAINATION****
+                           Java Program to Get the File Extension
+
+Example 1: Java Program to get the file extension
+
+In this above example,
+
+file.toString() - Converts the File object into a string.
+fileName.lastIndexOf('.') - Returns the last occurrence of character. 
+Since all file extension starts with '.', we use the character '.'.
+fileName.substring() - Returns the string after character '.'.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Get the file extension of all files present in a directory
+
+Note: The output of the program depends on the directory you use and the files in the directory.
+
+If you are using the Gauva Library, you can directly use the getFileExtension() 
+method to get the file extension. 
+For example,
+String fileName = "Test.java";
+String extension = Files.getFileExtension(fileName);
+And, also the Apache Commons IO provides the FilenameUtils class provides the 
+getExtension method to get the extension of the file.
+String extension = FilenameUtils.getExtension("file.py") // returns py

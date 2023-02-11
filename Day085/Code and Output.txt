@@ -1,0 +1,63 @@
+                                        ****JAVA PROGRAM TO GET THE FILE EXTENSION****
+
+QUESTION-
+
+Example 1: Java Program to get the file extension
+
+CODE-
+import java.io.File;
+
+class Main {
+
+  public static void main(String[] args) {
+    File file = new File("Test.java");
+
+    // convert the file name into string
+    String fileName = file.toString();
+
+    int index = fileName.lastIndexOf('.');
+    if(index > 0) {
+      String extension = fileName.substring(index + 1);
+      System.out.println("File extension is " + extension);
+    }
+  }
+}
+--------------------------------------------------------------------------------------------------------------------
+Example 2: Get the file extension of all files present in a directory
+Now, suppose we want to get the file extension of all the files present in a directory. 
+We can use the above process in the loop.
+
+CODE-
+import java.io.File;
+
+class Main {
+
+  public static void main(String[] args) {
+    File directory = new File("Directory");
+
+    // list all files present in the directory
+    File[] files = directory.listFiles();
+    System.out.println("Files\t\t\tExtension");
+
+    for(File file : files) {
+      // convert the file name into string
+      String fileName = file.toString();
+
+      int index = fileName.lastIndexOf('.');
+      if(index > 0) {
+        String extension = fileName.substring(index + 1);
+        System.out.println(fileName + "\t" + extension);
+      }
+    }
+  }
+
+
+}
+
+OUTPUT-
+Files                   Extension
+Directory\file1.txt     txt
+Directory\file2.svg     svg
+Directory\file3.java    java
+Directory\file4.py      py
+Directory\file5.html    html
