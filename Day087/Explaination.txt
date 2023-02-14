@@ -1,0 +1,19 @@
+                                       ****EXPLAINATION****
+                        Java Program to Convert InputStream to String
+
+In this program, you'll learn to convert input stream to a string using InputStreamReader in Java.
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java InputStream Class
+Java Strings
+
+Example: Convert InputStream to String
+
+In this program, the input stream is created from a String and stored in a variable stream. 
+We also require a string builder sb to create the string from the stream.
+
+Then, we created a buffered reader br from the InputStreamReader to read the lines from the stream. 
+Using a while loop, we read each line and append it to the string builder. F
+inally, we closed the bufferedReader.
+
+Since, the reader can throw IOException, we have the throws IOException in the main function as:
+public static void main(String[] args) throws IOException
