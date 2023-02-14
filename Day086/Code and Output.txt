@@ -1,0 +1,66 @@
+                                  ****JAVA PROGRAM TO COUNT NUMBER OF LINES PRESENT IN THE FILE****
+
+QUESTION-
+Example 1: Java program to count the number of lines in a file using Scanner class
+
+CODE-
+import java.io.File;
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+    int count = 0;
+
+    try {
+      // create a new file object
+      File file = new File("input.txt");
+
+      // create an object of Scanner
+      // associated with the file
+      Scanner sc = new Scanner(file);
+
+      // read each line and
+      // count number of lines
+      while(sc.hasNextLine()) {
+        sc.nextLine();
+        count++;
+      }
+      System.out.println("Total Number of Lines: " + count);
+
+      // close scanner
+      sc.close();
+    } catch (Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+
+OUTPUT-
+Total Number of Lines: 3
+---------------------------------------------------------------------------------------------------------------------------
+Example 2: Java program to count the number of lines in a file using java.nio.file package
+
+CODE-
+import java.nio.file.*;
+
+class Main {
+  public static void main(String[] args) {
+
+    try {
+
+      // make a connection to the file
+      Path file = Paths.get("input.txt");
+
+      // read all lines of the file
+      long count = Files.lines(file).count();
+      System.out.println("Total Lines: " + count);
+
+    } catch (Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+
+OUTPUT-
+Total Lines: 3

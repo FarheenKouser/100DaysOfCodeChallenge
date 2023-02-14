@@ -1,0 +1,34 @@
+                                         ****EXPLAINATION****
+             Java Program to Count number of lines present in the file
+
+In this example, we will learn to count the number of lines present in a file in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java File Class
+Java Scanner Class
+
+Example 1: Java program to count the number of lines in a file using Scanner class
+
+In this example,
+ we have used the nextLine() method of the Scanner class to access each line of the file. 
+Here, depending on the number of lines the file input.txt file contains, the program shows the output.
+
+In this case, we have a file name input.txt with the following content
+First Line
+Second Line
+Third Line
+
+So, we will get output
+Total Number of Lines: 3
+--------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Java program to count the number of lines in a file using java.nio.file package
+
+In this above example,
+lines() - read all lines of the file as a stream
+count() - returns the number of elements in the stream
+Here, if the file input.txt contains the following content:
+
+This is the article on Java Examples.
+The examples count number of lines in a file.
+Here, we have used the java.nio.file package.
+The program will print Total Lines: 3.
