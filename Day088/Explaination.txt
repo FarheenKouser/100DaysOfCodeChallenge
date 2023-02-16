@@ -1,0 +1,22 @@
+                                        ****EXPLAINATION****
+                  Java Program to Convert a String into the InputStream
+
+In this program, we will learn to convert a string to an inputstream in Java.
+
+Example: Java Program to convert String to InputStream
+  
+In this example, we have created a string named name. 
+Here, we have are converting the string into the input stream named stream.
+
+The getBytes() method converts the string into bytes. 
+
+Java String getBytes():-
+The Java String getBytes() method encodes the string into a sequence of bytes and stores it in a byte array.
+
+The syntax of the String getBytes() method are:
+string.getBytes()
+string.getBytes(Charset charset)
+string.getBytes(String charsetName)
+Here, string is an object of the String class.
+
+The getBytes() method returns a byte array.
