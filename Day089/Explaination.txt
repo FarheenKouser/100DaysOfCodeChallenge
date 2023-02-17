@@ -1,0 +1,32 @@
+                                        ****EXPLAINATION****
+                                Java Program to Get Current Date/TIme
+
+In this program, you'll learn to get the current date and time in different formats in Java.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Strings
+Java Basic Input and Output
+
+Example 1: Get Current date and time in default format
+
+In the above program, the current date and time is stored in variable current using 
+LocalDateTime.now() method.
+For default format, it is simply converted from a LocalDateTime object to a string 
+internally using a toString() method.
+------------------------------------------------------------------------------------------------------------------------------------------
+Example 2: Get Current date and time with pattern
+
+In the above program, we've defined a pattern of format 
+Year-Month-Day Hours:Minutes:Seconds.Milliseconds using a DateTimeFormatter object.
+Then, we've used LocalDateTime's format() method to use the given formatter. 
+This gets us the formatted string output.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Example 3: Get Current Date time using predefined constants
+
+In the above program, we've used a predefined format constant 
+BASIC_ISO_DATE to get the current ISO date as the output.
+------------------------------------------------------------------------------------------------------------------------------------------
+Example 4: Get Current Date time in localized style
+
+In the above program, we've used a Localized style Medium to get the current date-time in the given format. 
+There are other styles as well: Full, Long and Short.

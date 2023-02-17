@@ -1,0 +1,83 @@
+                                             ****JAVA PROGRAM TO GET CURRENT DATE/TIME****
+
+QUESTION-
+Example 1: Get Current date and time in default format
+
+CODE-
+import java.time.LocalDateTime;
+
+public class CurrentDateTime {
+
+    public static void main(String[] args) {
+        LocalDateTime current = LocalDateTime.now();
+
+        System.out.println("Current Date and Time is: " + current);
+    }
+}
+
+OUTPUT-
+Current Date and Time is: 2017-08-02T11:25:44.973
+-------------------------------------------------------------------------------------------------------------------------
+Example 2: Get Current date and time with pattern
+
+CODE-
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class CurrentDateTime {
+
+    public static void main(String[] args) {
+        LocalDateTime current = LocalDateTime.now();
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
+        String formatted = current.format(formatter);
+
+        System.out.println("Current Date and Time is: " + formatted);
+    }
+}
+
+OUTPUT-
+Current Date and Time is: 2017-08-02 11:29:57.401
+------------------------------------------------------------------------------------------------------------------------------------
+Example 3: Get Current Date time using predefined constants
+
+CODE-
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class CurrentDateTime {
+
+    public static void main(String[] args) {
+        LocalDateTime current = LocalDateTime.now();
+
+        DateTimeFormatter formatter = DateTimeFormatter.BASIC_ISO_DATE;
+        String formatted = current.format(formatter);
+
+        System.out.println("Current Date is: " + formatted);
+    }
+}
+
+OUTPUT-
+Current Date is: 20170802
+----------------------------------------------------------------------------------------------------------------------------
+Example 4: Get Current Date time in localized style
+
+CODE-
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+
+public class CurrentDateTime {
+
+    public static void main(String[] args) {
+        LocalDateTime current = LocalDateTime.now();
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+        String formatted = current.format(formatter);
+
+        System.out.println("Current Date is: " + formatted);
+    }
+}
+
+OUTPUT-
+Current Date is: Aug 2, 2017 11:44:19 AM
