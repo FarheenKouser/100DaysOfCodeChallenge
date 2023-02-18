@@ -1,0 +1,21 @@
+                                            ****EXPLAINATION****
+                                      Java Program to Add Two Dates
+
+In this program, we will learn to add two dates in Java using Calendar.
+
+To understand this example, you should have the knowledge of the following Java programming topics:
+Java Class and Objects
+Java Basic Input and Output
+
+Since, Java epoch is 1970, any time represented in a Date object will not work. 
+This means, your Dates will start from 1970 and when two Date objects are added, 
+the sum misses by about 1970 years. So, we use Calendar instead.
+
+Example: Java program to add two dates
+
+In this program, c1 and c2 stores the current date. Then, we simply clone c1 and add c2's each 
+DateTime properties one after the other.
+
+As you can see, we've added 1 to the months. This is because months start with 0 in Java.
+
+Alternatively, we can also use Joda for time/date operations in Java.
