@@ -1,0 +1,31 @@
+                                          ****EXPLAINATION****
+               Java Program to Convert Milliseconds to Minutes and Seconds
+
+In this program,we will learn to convert milliseconds to minutes and seconds individually,
+ and together in Java.
+
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java Data Types (Primitive)
+Java Basic Input and Output
+
+In Java, we can use the built-in methods:
+toMinutes() - to convert milliseconds to minutes
+toSeconds() - to convert milliseconds to seconds
+
+Example 1: Milliseconds to Seconds/Minutes Using toMinutes() and toSeconds()
+
+In this program, we have used the long datatype to store milliseconds, minutes, and 
+seconds values. It is because the toMinutes() and toSeconds() methods return values in long.
+
+Note: To use the methods, we must import the java.util.concurrent.TimeUnit package.
+
+We can also use the basic mathematical formulas to convert milliseconds to minutes and seconds.
+
+// convert milliseconds to seconds
+Seconds = milliseconds / 1000
+
+// convert seconds to minutes
+minutes = seconds / 60
+
+// convert millisecons to minutes
+minutes = (milliseconds / 1000) / 60

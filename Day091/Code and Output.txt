@@ -1,0 +1,29 @@
+                       ****JAVA PROGRAM TO CONVERT MILLISECONDS TO MINUTES AND SECONDS****
+
+QUESTION-
+Example 1: Milliseconds to Seconds/Minutes Using toMinutes() and toSeconds()
+
+CODE-
+import java.util.concurrent.TimeUnit;
+
+class Main {
+  public static void main(String[] args) {
+
+    long milliseconds = 1000000;
+
+    // us of toSeconds()
+    // to convert milliseconds to minutes
+    long seconds = TimeUnit.MILLISECONDS.toSeconds(milliseconds);
+    System.out.println(milliseconds + " Milliseconds = " + seconds + " Seconds");
+
+    // use of toMinutes()
+    // to convert milliseconds to minutes
+    long minutes = TimeUnit.MILLISECONDS.toMinutes(milliseconds);
+    System.out.println(milliseconds + " Milliseconds = " + minutes + " Minutes");
+  }
+}
+
+OUTPUT-
+1000000 Milliseconds = 1000 Seconds
+Or
+1000000 Milliseconds = 16 Minutes
