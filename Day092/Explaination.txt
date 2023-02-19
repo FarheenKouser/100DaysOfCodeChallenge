@@ -1,0 +1,20 @@
+                                        ****EXPLAINATION****
+                     Java Program to Implement multiple inheritance
+
+To understand this example, We should have the knowledge of the following Java programming topics:
+Java Inheritance
+Java Interface
+Java Class and Objects
+
+When the child class extends from more than one superclass, it is known as multiple inheritance. 
+However, Java does not support multiple inheritance.
+To achieve multiple inheritance in Java, we must use the interface.
+
+Example: Multiple Inheritance in Java
+
+In this example, we have created an interface named Backend and a class named Frontend. 
+The class Language extends the Frontend class and implements the Backend interface.
+Multiple inheritance in Java
+Multiple Inheritancy in Java
+Here, the Language class is inheriting the property of both Backend and Frontend. 
+Hence, we can say it is an example of multiple inheritance.
