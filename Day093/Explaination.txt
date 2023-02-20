@@ -1,0 +1,17 @@
+                                                    ****EXPLAINATION****
+                    Java Program to Check the birthday and print Happy Birthday message
+ 
+In this example, we will learn to check the current day with the birthday and 
+print the Happy Birthday message in Java.
+To understand this example, we should have the knowledge of the following Java programming topics:
+Java if...else Statement
+Java Basic Input and Output
+
+Example: Check birthday and return Happy Birthday message
+
+In this example,
+LocalDate.now() - returns the current date
+getDayOfMonth() - returns the current day
+getMonth() - returns the current month
+Here, we have used the if...else statement to check if the current date matches the birthdate. 
+If true, the Happy Birthday message is printed.

@@ -1,0 +1,37 @@
+                    ****JAVA PROGRAM TO CHECK THE BIRTHDAY AND PRINT HAPPY BIRTHDAY MESSAGE****
+
+QUESTION-
+
+Example: Check birthday and return Happy Birthday message
+
+CODE-
+import java.time.LocalDate;
+import java.time.Month;
+
+public class Main {
+   public static void main(String args[]) {
+
+    // declare variables for birthday
+    int birthDate = 23;
+    Month birthMonth = Month.SEPTEMBER;
+
+    // get current date
+    LocalDate currentDate = LocalDate.now();
+    System.out.println("Todays Date: " + currentDate);
+
+    // get current date and month
+    int date = currentDate.getDayOfMonth();
+    Month month = currentDate.getMonth();
+
+    if(date == birthDate && month == birthMonth) {
+      System.out.println("HAPPY BIRTHDAY TO YOU !!");
+    }
+    else {
+      System.out.println("Today is not my birthday.");
+    }
+   }
+}
+
+OUTPUT-
+Todays Date: 2023-02-20
+HAPPY BIRTHDAY TO YOU !!
