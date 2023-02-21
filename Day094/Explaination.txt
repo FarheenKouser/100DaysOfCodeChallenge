@@ -1,0 +1,19 @@
+                                                      ****EXPLAINATION****
+                  Java Program to Determine the name and version of the operating system
+
+In this example, we will learn to get the name and version of operating system 
+in which the program run using Java.
+
+Example: Determine the Operating System
+
+In this example, we have used the getProperty() method of the System class. 
+Here, we have passed the os.name key as an argument to the method.
+
+The method returns the property of the system specified by the key.
+
+There are other keys that can be used to get other system properties. 
+For example,
+// returns the version of Operating system
+// 10.0
+System.getProperty("os.version");
+Here, the key os.version returns the version of the operating system.

@@ -1,0 +1,19 @@
+             ****JAVA PROGRAM TO DETERMINE THE NAME AND VERSION OF THE OPERATING SYSTEM****
+
+QUESTION-
+
+Example: Determine the Operating System
+
+CODE-
+class Main {
+  public static void main(String[] args) {
+
+    // get the name of operating system
+    String operatingSystem = System.getProperty("os.name");
+    System.out.println(operatingSystem);
+
+  }
+}
+ 
+OUTPUT-
+Windows 10
