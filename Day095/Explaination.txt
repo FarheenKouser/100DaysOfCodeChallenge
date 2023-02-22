@@ -1,0 +1,14 @@
+                                                     ****EXPLAINATION****
+                                                 Generating password in Java
+
+Generate temporary password is now a requirement on almost every website now-a-days. 
+In case a user forgets the password, system generates a random password 
+adhering to password policy of the company. 
+This example generates a random password adhering to following conditions −
+
+It should contain at least one capital case letter.
+It should contain at least one lower-case letter.
+It should contain at least one number.
+Length should be 8 characters.
+It should contain one of the following special characters: @, $, #, !.
+
