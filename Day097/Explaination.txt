@@ -1,0 +1,18 @@
+                                       ****EXPLAINATION****
+                    Java Swing Program to create a Digital watch
+
+A digital watch is defined as a watch that displays the time in numerical digits rather than by hands on a dial.
+
+Java's Thread and Graphics classes are used to create a digital clock. 
+The Graphics class is used for the clock's design, and threads are used 
+to change the clock's seconds, minutes, and hours.
+
+ALGORITHM-
+1.To create a frame, we must first import the swing package. 
+2.Then, the util package will be used to build the user interface. 
+3.We also use a text package to write the program where date-time is required.
+4.We first create a frame and define its dimensions. 
+5.We then set the values of all the variables to zero and initialize the three variables Hours, Minutes, and Seconds.
+6.In this software, the Calendar class is used. The abstract class that gives us access to date, time, year, and month 
+   methods is the Java Calendar class.
+7.The millisecond interval is provided by Sleep(1000).
