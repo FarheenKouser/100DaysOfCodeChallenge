@@ -1,0 +1,15 @@
+                                                       ****EXPLAINATION****
+                                                 Displaying image in Java Swing
+
+JLabel can be used to display an image in Java. 
+Adding an image is as simple as selecting the JPictureBox, then going to the Properties view, 
+finding the "icon" property, and selecting an image.
+JPEG, PNG, BMP, WEBMP, and GIF are the only formats supported by Java by default.  
+A class that represents graphical images is the abstract class Image. 
+Platform-specific methods are required to obtain the image.  
+
+Displaying image in swing:-
+For displaying image, we can use the method drawImage() of Graphics class.
+
+Syntax of drawImage() method:-
+public abstract boolean drawImage(Image img, int x, int y, ImageObserver observer): is used draw the specified image.
