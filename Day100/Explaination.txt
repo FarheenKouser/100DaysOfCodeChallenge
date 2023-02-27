@@ -1,0 +1,19 @@
+                                                  ****EXPLAINATION****
+                                   Java program to create a word character counter
+
+Word Character Counter in Java
+We can create a Word Character Counter in Java using string, AWT/Swing, 
+with event handling with the help of ActionEvent Class.
+
+AWT/Swing
+The Java AWT API(Application Programming interface) is used to create graphical user interface (GUI) applications. 
+Java Swing is a Java Foundation Class that is used to create a variety of applications.
+
+Explanation
+In this program we have use the length() function  to count the characters in a string. 
+Here, when, the length() function with the given string enter by the user, 
+it will return the count as the output for both word and character.
+
+Code
+Word Character Counter in Java program: In this program, we will find out the word and 
+the character count in the lang-java, where the user inputs the text or a paragraph.
